@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  <StaticAnimation item="CA_Anim">
+    <ScreenID>CA_Anim</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>13</X>
+      <Y>13</Y>
+    </Location>
+    <Size>
+      <CX>80</CX>
+      <CY>80</CY>
+    </Size>
+    <Animation>BuffIcons</Animation>
+    <Font>5</Font>
+  </StaticAnimation>
+  <StaticAnimation item="CA_Anim2">
+    <ScreenID>CA_Anim2</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>13</X>
+      <Y>13</Y>
+    </Location>
+    <Size>
+      <CX>80</CX>
+      <CY>80</CY>
+    </Size>
+    <Animation>BuffIcons</Animation>
+    <Font>5</Font>
+  </StaticAnimation>
+  <SpellGem item="CA_SpellGem">
+    <ScreenID>CA_SpellGem</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>13</X>
+      <Y>13</Y>
+    </Location>
+    <Size>
+      <CX>80</CX>
+      <CY>80</CY>
+    </Size>
+    <SpellGemDrawTemplate>
+      <Holder>Nilli_HBSpellHolder</Holder>
+    </SpellGemDrawTemplate>
+    <Font>5</Font>
+  </SpellGem>
+  <Screen item="CursorAttachment">
+    <ScreenID />
+    <Font>5</Font>
+    <RelativePosition>false</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>100</CX>
+      <CY>100</CY>
+    </Size>
+    <Style_Transparent>true</Style_Transparent>
+    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+    <Style_Titlebar>false</Style_Titlebar>
+    <Style_Closebox>false</Style_Closebox>
+    <Style_Minimizebox>false</Style_Minimizebox>
+    <Style_Border>false</Style_Border>
+    <Style_Sizable>false</Style_Sizable>
+    <Pieces>CA_Anim</Pieces>
+    <Pieces>CA_Anim2</Pieces>
+    <Pieces>CA_SpellGem</Pieces>
+    <Font>6</Font>
+  </Screen>
+</XML>

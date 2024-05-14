@@ -1,0 +1,46 @@
+[Portal Stone]
+// Evil (south)
+Cabalis			-584	+37	Field of Bone
+Grobb			-813	+48	Innothule Swamp
+Neriak			-895	+133	Nektulos Forest
+Oggok			-919	-446	The Feerott
+Overthere		-922	+882	The Overthere
+Paineel			-923	+1225	Toxxulia Forest
+// Neutral (east)
+Nexus			+443	-75	The Nexus
+Great Divide		+447	-238	The Great Divide
+Shar Vahl		+375	-296	Shadeweaver's Thicket
+Qeynos			+146	-317	North Qeynos
+Plane of Tranquility	-148	-315	Plane of Tranquility
+Firiona Vie		-362	-319	Firiona Vie
+Freeport		-445	-233	West Freeport
+Ak'Anon			-444	-75	Steamfont Mountains
+// Good (north)
+Rivervale		+920	+1227	Misty Thicket
+Kelethin		+924	+886	Greater Faydark
+Kaladim			+916	+475	Butcherblock Mountains
+Halas			+917	+132	Everfrost Peaks
+Felwithe		+813	+24	Greater Faydark
+Erudin			+584	+33	Toxxulia Forest
+
+[Book]
+Butcherblock Mountains	+1744	-579
+Everfrost Peaks		+2874	-74
+Field of Bone		-3000	+1843
+Firiona Vie		-300	+4800
+Greater Faydark		-180	-742
+Greater Faydark		-2245	-1816
+Innothule Swamp		-715	-35
+Misty Thicket		-545	-1263
+Nektulos Forest		+729	-341
+North Qeynos		+198	+485
+Plane of Tranquility	+762	-1457
+Shadeweaver's Thicket	-3000	-2428
+Steamfont Mountains	-1200	+1000
+The Feerott		+873	-161
+The Great Divide	+8	-1812
+The Nexus		+44	+467
+The Overthere		+3137	+1920
+Toxxulia Forest		-2346	+292
+Toxxulia Forest		+2326	-573
+West Freeport		-679	+82
