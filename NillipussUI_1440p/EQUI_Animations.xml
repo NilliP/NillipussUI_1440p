@@ -46,6 +46,13 @@
       <CY>512</CY>
     </Size>
   </TextureInfo>
+  <!-- Nilli 1080p bars -->
+  <TextureInfo item="dzbars.png">
+    <Size>
+      <CX>256</CX>
+      <CY>256</CY>
+    </Size>
+  </TextureInfo>
   <TextureInfo item="dzbuttons.png">
     <Size>
       <CX>512</CX>
@@ -4991,6 +4998,198 @@
       <Duration>1000</Duration>
     </Frames>
   </Ui2DAnimation>
+  <!-- Nilli 1080p gauges -->
+  <Ui2DAnimation item="A_dzFill_1080">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>dzbars.png</Texture>
+      <Location>
+        <X>2</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <CX>100</CX>
+        <CY>20</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="A_dzLongFill_1080">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>dzbars.png</Texture>
+      <Location>
+        <X>0</X>
+        <Y>120</Y>
+      </Location>
+      <Size>
+        <CX>240</CX>
+        <CY>20</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="A_dzThinLongFill_1080">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>dzbars.png</Texture>
+      <Location>
+        <X>0</X>
+        <Y>240</Y>
+      </Location>
+      <Size>
+        <CX>240</CX>
+        <CY>15</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="A_dzThinLongLines_1080">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>dzbars.png</Texture>
+      <Location>
+        <X>0</X>
+        <Y>233</Y>
+      </Location>
+      <Size>
+        <CX>240</CX>
+        <CY>11</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="A_dzLines_1080">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>dzbars.png</Texture>
+      <Location>
+        <X>0</X>
+        <Y>60</Y>
+      </Location>
+      <Size>
+        <CX>104</CX>
+        <CY>20</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <!-- Nilli 1080p color backgrounds -->
+  <Ui2DAnimation item="Nill_HP_BG_1080">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>dzbars.png</Texture>
+      <Location>
+        <X>0</X>
+        <Y>162</Y>
+      </Location>
+      <Size>
+        <CX>240</CX>
+        <CY>20</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="Nill_Mana_BG_1080">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>dzbars.png</Texture>
+      <Location>
+        <X>0</X>
+        <Y>43</Y>
+      </Location>
+      <Size>
+        <CX>240</CX>
+        <CY>15</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="Nill_XP_BG_1080">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>dzbars.png</Texture>
+      <Location>
+        <X>0</X>
+        <Y>58</Y>
+      </Location>
+      <Size>
+        <CX>240</CX>
+        <CY>15</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="Nill_Fatigue_BG_1080">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>dzbars.png</Texture>
+      <Location>
+        <X>0</X>
+        <Y>185</Y>
+      </Location>
+      <Size>
+        <CX>240</CX>
+        <CY>15</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="NilliSpellBG_1080">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>dzbars.png</Texture>
+      <Location>
+        <X>0</X>
+        <Y>98</Y>
+      </Location>
+      <Size>
+        <CX>240</CX>
+        <CY>20</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
   <!-- Rustle2 gauges -->
   <Ui2DAnimation item="A_dzFill">
     <Cycle>true</Cycle>
@@ -5482,6 +5681,25 @@
       <Size>
         <CX>130</CX>
         <CY>10</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="A_dzLines_xp">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>dzbars.png</Texture>
+      <Location>
+        <X>0</X>
+        <Y>245</Y>
+      </Location>
+      <Size>
+        <CX>240</CX>
+        <CY>15</CY>
       </Size>
       <Hotspot>
         <X>0</X>
