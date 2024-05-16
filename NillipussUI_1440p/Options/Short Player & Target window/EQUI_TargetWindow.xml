@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  <!-- Etasi UI- last modified 01/21/04 -->
+  <!-- target con indicator enabled -->
+  <Label item="HPLabel">
+    <ScreenID>HPLabel</ScreenID>
+    <EQType>29</EQType>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>200</X>
+      <Y>19</Y>
+    </Location>
+    <Size>
+      <CX>35</CX>
+      <CY>20</CY>
+    </Size>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+    <Text>100</Text>
+  </Label>
+  <Label item="HPLabelBG">
+    <ScreenID>HPLabel</ScreenID>
+    <EQType>29</EQType>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>201</X>
+      <Y>20</Y>
+    </Location>
+    <Size>
+      <CX>35</CX>
+      <CY>20</CY>
+    </Size>
+    <TextColor>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+    <Text>100</Text>
+  </Label>
+  <!-- Target Name and Drop shadow -->
+  <Label item="TargetName">
+    <ScreenID>TargetName</ScreenID>
+    <Font>5</Font>
+    <EQType>28</EQType>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>5</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>18</CY>
+    </Size>
+    <Text>Target</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="TargetNameBG">
+    <ScreenID>TargetName</ScreenID>
+    <Font>5</Font>
+    <EQType>28</EQType>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>6</X>
+      <Y>1</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>18</CY>
+    </Size>
+    <Text>Target</Text>
+    <TextColor>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- drop shadow end -->
+  <Gauge item="Target_HP">
+    <ScreenID>Target_HP</ScreenID>
+    <Font>5</Font>
+    <TextColor>
+      <R>240</R>
+      <G>240</G>
+      <B>240</B>
+    </TextColor>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>5</X>
+      <Y>18</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>20</CY>
+    </Size>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <TextOffsetX>-500</TextOffsetX>
+    <FillTint>
+      <R>220</R>
+      <G>0</G>
+      <B>0</B>
+    </FillTint>
+    <EQType>6</EQType>
+    <GaugeDrawTemplate>
+      <Background>Nill_HP_BG</Background>
+      <Fill>A_dzFill</Fill>
+    </GaugeDrawTemplate>
+  </Gauge>
+  <TextureInfo item="TargetBox.tga">
+    <Size>
+      <CX>256</CX>
+      <CY>32</CY>
+    </Size>
+  </TextureInfo>
+  <Ui2DAnimation item="A_TargetBox">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>TargetBox.tga</Texture>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <CX>185</CX>
+        <CY>14</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+  <StaticAnimation item="A_TargetBoxStaticAnim">
+    <ScreenID>A_TargetBoxStaticAnim</ScreenID>
+    <Animation>A_TargetBox</Animation>
+    <Size>
+      <CX>1</CX>
+      <CY>1</CY>
+    </Size>
+  </StaticAnimation>
+  <Gauge item="TW_CastGauge">
+    <ScreenID>CastTimeGauge</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>5</X>
+      <Y>40</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>20</CY>
+    </Size>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <FillTint>
+      <R>225</R>
+      <G>0</G>
+      <B>255</B>
+    </FillTint>
+    <EQType>7</EQType>
+    <GaugeDrawTemplate>
+      <Fill>A_SpellFill</Fill>
+      <Background>A_SpellBG</Background>
+    </GaugeDrawTemplate>
+  </Gauge>
+  <Label item="HPPercLabel">
+    <ScreenID>HPPercLabel</ScreenID>
+    <Size>
+      <CX>1</CX>
+      <CY>1</CY>
+    </Size>
+  </Label>
+  <Label item="Target_Casting_SpellName">
+    <ScreenID />
+    <EQType>134</EQType>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>5</X>
+      <Y>40</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>20</CY>
+    </Size>
+    <Text />
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="Target_Casting_SpellNameBG">
+    <ScreenID />
+    <EQType>134</EQType>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>6</X>
+      <Y>41</Y>
+    </Location>
+    <Size>
+      <CX>200</CX>
+      <CY>20</CY>
+    </Size>
+    <Text />
+    <TextColor>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!--******************************************************************************************************-->
+  <Screen item="TargetWindow">
+    <ScreenID />
+    <RelativePosition>false</RelativePosition>
+    <Location>
+      <X>516</X>
+      <Y>242</Y>
+    </Location>
+    <Size>
+      <CX>245</CX>
+      <CY>70</CY>
+    </Size>
+    <Text>Target</Text>
+    <TooltipReference>Your Current Target</TooltipReference>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+    <Style_Titlebar>false</Style_Titlebar>
+    <Style_Closebox>false</Style_Closebox>
+    <Style_Minimizebox>false</Style_Minimizebox>
+    <Style_Border>false</Style_Border>
+    <Style_Sizable>false</Style_Sizable>
+    <Pieces>TW_CastGauge</Pieces>
+    <Pieces>Target_HP</Pieces>
+    <Pieces>HPLabelBG</Pieces>
+    <Pieces>HPLabel</Pieces>
+    <Pieces>HPPercLabel</Pieces>
+    <Pieces>A_TargetBoxStaticAnim</Pieces>
+    <!-- Target Name and drop shadow -->
+    <Pieces>TargetNameBG</Pieces>
+    <Pieces>TargetName</Pieces>
+    <Pieces>Target_Casting_SpellNameBG</Pieces>
+    <Pieces>Target_Casting_SpellName</Pieces>
+  </Screen>
+</XML>
