@@ -4556,7 +4556,67 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>true</Style_Checkbox>
     <TooltipReference>Stops windows from closing on escape but still drops target</TooltipReference>
-    <Text>Escape Target</Text>
+    <Text>Escape Logic</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="Zeal_AltContainerTooltips">
+    <ScreenID>Zeal_AltContainerTooltips</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>10</X>
+      <Y>164</Y>
+    </Location>
+    <Size>
+      <CX>150</CX>
+      <CY>20</CY>
+    </Size>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>true</Style_Checkbox>
+    <TooltipReference>Alt key will show ALL item Tooltips in open bags</TooltipReference>
+    <Text>Container Tooltips</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="Zeal_SpellbookAutoStand">
+    <ScreenID>Zeal_SpellbookAutoStand</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>10</X>
+      <Y>186</Y>
+    </Location>
+    <Size>
+      <CX>150</CX>
+      <CY>20</CY>
+    </Size>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>true</Style_Checkbox>
+    <TooltipReference>Toggles Autostand if Spellbook is open (so you can turn pages with movement keys)</TooltipReference>
+    <Text>Spellbook Auto Stand</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -4571,18 +4631,18 @@
     </ButtonDrawTemplate>
   </Button>
   <!-- Hide Corpse options -->
-  <Label item="Zeal_HideCorpseLabel">
-    <ScreenID>Zeal_HideCorpseLabel</ScreenID>
+  <Label item="Zeal_Tooltips_Label">
+    <ScreenID>Zeal_Tooltips_Label</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>200</X>
-      <Y>10</Y>
+      <X>10</X>
+      <Y>218</Y>
     </Location>
     <Size>
       <CX>150</CX>
       <CY>14</CY>
     </Size>
-    <Text>Hide Corpse:</Text>
+    <Text>Tooltips</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -4592,12 +4652,12 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-  <Combobox item="Zeal_HideCorpseCombobox">
-    <ScreenID>Zeal_HideCorpseCombobox</ScreenID>
+  <Combobox item="Zeal_Tooltips_Combobox">
+    <ScreenID>Zeal_Tooltips_Combobox</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <Location>
-      <X>200</X>
-      <Y>30</Y>
+      <X>10</X>
+      <Y>238</Y>
     </Location>
     <Size>
       <CX>150</CX>
@@ -4611,10 +4671,9 @@
     <ListHeight>70</ListHeight>
     <Button>BDT_Combo</Button>
     <Style_Border>true</Style_Border>
-    <Choices>All</Choices>
-    <Choices>All except Group</Choices>
-    <Choices>Looted</Choices>
-    <Choices>None</Choices>
+    <Choices>Default</Choices>
+    <Choices>Show ALL item tooltips</Choices>
+    <Choices>Hide tooltips</Choices>
   </Combobox>
   <!-- Zeal Pan Delay slider -->
   <Label item="Zeal_PanDelayLabel">
@@ -4628,7 +4687,7 @@
       <CX>150</CX>
       <CY>14</CY>
     </Size>
-    <Text>Pan Delay (seconds)</Text>
+    <Text>Pan Delay</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -4678,7 +4737,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>200</X>
-      <Y>97</Y>
+      <Y>139</Y>
     </Location>
     <Size>
       <CX>150</CX>
@@ -4700,7 +4759,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>220</X>
-      <Y>121</Y>
+      <Y>163</Y>
     </Location>
     <Size>
       <CX>150</CX>
@@ -4721,7 +4780,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>220</X>
-      <Y>141</Y>
+      <Y>183</Y>
     </Location>
     <Size>
       <CX>100</CX>
@@ -4734,7 +4793,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>310</X>
-      <Y>145</Y>
+      <Y>182</Y>
     </Location>
     <Size>
       <CX>50</CX>
@@ -4756,7 +4815,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>220</X>
-      <Y>159</Y>
+      <Y>201</Y>
     </Location>
     <Size>
       <CX>150</CX>
@@ -4777,7 +4836,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>220</X>
-      <Y>179</Y>
+      <Y>221</Y>
     </Location>
     <Size>
       <CX>100</CX>
@@ -4790,7 +4849,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>310</X>
-      <Y>183</Y>
+      <Y>220</Y>
     </Location>
     <Size>
       <CX>50</CX>
@@ -4812,7 +4871,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>220</X>
-      <Y>200</Y>
+      <Y>242</Y>
     </Location>
     <Size>
       <CX>150</CX>
@@ -4833,7 +4892,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>220</X>
-      <Y>220</Y>
+      <Y>262</Y>
     </Location>
     <Size>
       <CX>100</CX>
@@ -4846,7 +4905,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>310</X>
-      <Y>224</Y>
+      <Y>261</Y>
     </Location>
     <Size>
       <CX>50</CX>
@@ -4868,7 +4927,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>220</X>
-      <Y>238</Y>
+      <Y>280</Y>
     </Location>
     <Size>
       <CX>150</CX>
@@ -4889,7 +4948,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>220</X>
-      <Y>258</Y>
+      <Y>300</Y>
     </Location>
     <Size>
       <CX>100</CX>
@@ -4902,7 +4961,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>310</X>
-      <Y>262</Y>
+      <Y>299</Y>
     </Location>
     <Size>
       <CX>50</CX>
@@ -4973,6 +5032,92 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>true</AlignRight>
   </Label>
+  <!-- Tooltip Hover Timeout -->
+  <Label item="Zeal_HoverTimeout_Label">
+    <ScreenID>Zeal_HoverTimeout_Label</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>197</X>
+      <Y>97</Y>
+    </Location>
+    <Size>
+      <CX>150</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>Tooltip Hover Delay</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Slider item="Zeal_HoverTimeout_Slider">
+    <ScreenID>Zeal_HoverTimeout_Slider</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>197</X>
+      <Y>117</Y>
+    </Location>
+    <Size>
+      <CX>100</CX>
+      <CY>16</CY>
+    </Size>
+    <SliderArt>SDT_DefSlider</SliderArt>
+  </Slider>
+  <Label item="Zeal_HoverTimeout_Value">
+    <ScreenID>Zeal_HoverTimeout_Value</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>287</X>
+      <Y>117</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>16</CY>
+    </Size>
+    <Text>0</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Button item="Zeal_FloatingDamage">
+    <ScreenID>Zeal_FloatingDamage</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>10</X>
+      <Y>208</Y>
+    </Location>
+    <Size>
+      <CX>150</CX>
+      <CY>20</CY>
+    </Size>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>true</Style_Checkbox>
+    <TooltipReference>Toggles floating combat damage numbers</TooltipReference>
+    <Text>Floating Damage</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
   <!-- end -->
   <Page item="OptionsZealPage">
     <ScreenID>OptionsZealPage</ScreenID>
@@ -5020,8 +5165,14 @@
     <Pieces>Zeal_Fov</Pieces>
     <Pieces>Zeal_FovLabel</Pieces>
     <Pieces>Zeal_FovLabel_</Pieces>
-    <!-- <Pieces>Zeal_HideCorpseCombobox</Pieces> -->
-    <!-- <Pieces>Zeal_HideCorpseLabel</Pieces> -->
+    <Pieces>Zeal_HoverTimeout_Label</Pieces>
+    <Pieces>Zeal_HoverTimeout_Slider</Pieces>
+    <Pieces>Zeal_HoverTimeout_Value</Pieces>
+    <Pieces>Zeal_AltContainerTooltips</Pieces>
+    <Pieces>Zeal_SpellbookAutoStand</Pieces>
+    <Pieces>Zeal_FloatingDamage</Pieces>
+    <!--<Pieces>Zeal_Tooltips_Combobox</Pieces>
+    <Pieces>Zeal_Tooltips_Label</Pieces>-->
     <Location>
       <X>0</X>
       <Y>22</Y>
