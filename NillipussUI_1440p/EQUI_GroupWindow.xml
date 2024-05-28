@@ -194,7 +194,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>11</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill1</Fill>
+      <Fill>GW_GaugeFill1</Fill>
     </GaugeDrawTemplate>
     <TextOffsetY>8000</TextOffsetY>
     <TextColor>
@@ -279,7 +279,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>11</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill2</Fill>
+      <Fill>GW_GaugeFill2</Fill>
     </GaugeDrawTemplate>
   </Gauge>
   <Screen item="Party1_HP_2A_X">
@@ -357,7 +357,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>11</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill3</Fill>
+      <Fill>GW_GaugeFill3</Fill>
     </GaugeDrawTemplate>
   </Gauge>
   <Screen item="Party1_HP_3A_X">
@@ -435,7 +435,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>11</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill4</Fill>
+      <Fill>GW_GaugeFill4</Fill>
     </GaugeDrawTemplate>
     <TextOffsetY>8000</TextOffsetY>
     <TextColor>
@@ -652,7 +652,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>12</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill1</Fill>
+      <Fill>GW_GaugeFill1</Fill>
     </GaugeDrawTemplate>
     <TextOffsetY>8000</TextOffsetY>
     <TextColor>
@@ -737,7 +737,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>12</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill2</Fill>
+      <Fill>GW_GaugeFill2</Fill>
     </GaugeDrawTemplate>
   </Gauge>
   <Screen item="Party2_HP_2A_X">
@@ -815,7 +815,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>12</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill3</Fill>
+      <Fill>GW_GaugeFill3</Fill>
     </GaugeDrawTemplate>
   </Gauge>
   <Screen item="Party2_HP_3A_X">
@@ -893,7 +893,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>12</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill4</Fill>
+      <Fill>GW_GaugeFill4</Fill>
     </GaugeDrawTemplate>
     <TextOffsetY>8000</TextOffsetY>
     <TextColor>
@@ -1110,7 +1110,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>13</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill1</Fill>
+      <Fill>GW_GaugeFill1</Fill>
     </GaugeDrawTemplate>
     <TextOffsetY>8000</TextOffsetY>
     <TextColor>
@@ -1195,7 +1195,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>13</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill2</Fill>
+      <Fill>GW_GaugeFill2</Fill>
     </GaugeDrawTemplate>
   </Gauge>
   <Screen item="Party3_HP_2A_X">
@@ -1273,7 +1273,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>13</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill3</Fill>
+      <Fill>GW_GaugeFill3</Fill>
     </GaugeDrawTemplate>
   </Gauge>
   <Screen item="Party3_HP_3A_X">
@@ -1351,7 +1351,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>13</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill4</Fill>
+      <Fill>GW_GaugeFill4</Fill>
     </GaugeDrawTemplate>
     <TextOffsetY>8000</TextOffsetY>
     <TextColor>
@@ -1568,7 +1568,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>14</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill1</Fill>
+      <Fill>GW_GaugeFill1</Fill>
     </GaugeDrawTemplate>
     <TextOffsetY>8000</TextOffsetY>
     <TextColor>
@@ -1653,7 +1653,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>14</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill2</Fill>
+      <Fill>GW_GaugeFill2</Fill>
     </GaugeDrawTemplate>
   </Gauge>
   <Screen item="Party4_HP_2A_X">
@@ -1731,7 +1731,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>14</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill3</Fill>
+      <Fill>GW_GaugeFill3</Fill>
     </GaugeDrawTemplate>
   </Gauge>
   <Screen item="Party4_HP_3A_X">
@@ -1809,7 +1809,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>14</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill4</Fill>
+      <Fill>GW_GaugeFill4</Fill>
     </GaugeDrawTemplate>
     <TextOffsetY>8000</TextOffsetY>
     <TextColor>
@@ -2026,7 +2026,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>15</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill1</Fill>
+      <Fill>GW_GaugeFill1</Fill>
     </GaugeDrawTemplate>
     <TextOffsetY>8000</TextOffsetY>
     <TextColor>
@@ -2111,7 +2111,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>15</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill2</Fill>
+      <Fill>GW_GaugeFill2</Fill>
     </GaugeDrawTemplate>
   </Gauge>
   <Screen item="Party5_HP_2A_X">
@@ -2189,7 +2189,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>15</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill3</Fill>
+      <Fill>GW_GaugeFill3</Fill>
     </GaugeDrawTemplate>
   </Gauge>
   <Screen item="Party5_HP_3A_X">
@@ -2267,7 +2267,7 @@
     <DrawLinesFill>false</DrawLinesFill>
     <EQType>15</EQType>
     <GaugeDrawTemplate>
-      <Fill>PW_GaugeFill4</Fill>
+      <Fill>GW_GaugeFill4</Fill>
     </GaugeDrawTemplate>
     <TextOffsetY>8000</TextOffsetY>
     <TextColor>
