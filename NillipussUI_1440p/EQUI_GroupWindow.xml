@@ -8,7 +8,7 @@
       <Texture>dzbars2x.png</Texture>
       <Location>
         <X>-1996</X>
-        <Y>0</Y>
+        <Y>4</Y>
       </Location>
       <Size>
         <CX>10000</CX>
@@ -27,7 +27,7 @@
       <Texture>dzbars2x.png</Texture>
       <Location>
         <X>-3996</X>
-        <Y>0</Y>
+        <Y>4</Y>
       </Location>
       <Size>
         <CX>10000</CX>
@@ -46,7 +46,7 @@
       <Texture>dzbars2x.png</Texture>
       <Location>
         <X>-5996</X>
-        <Y>0</Y>
+        <Y>4</Y>
       </Location>
       <Size>
         <CX>10000</CX>
@@ -65,7 +65,7 @@
       <Texture>dzbars2x.png</Texture>
       <Location>
         <X>-7996</X>
-        <Y>0</Y>
+        <Y>4</Y>
       </Location>
       <Size>
         <CX>10000</CX>
