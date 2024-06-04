@@ -251,7 +251,7 @@
     <TooltipReference>Your Current Target</TooltipReference>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
-    <Style_Transparent>true</Style_Transparent>
+    <Style_Transparent>false</Style_Transparent>
     <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
