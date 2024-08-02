@@ -1,23 +1,40 @@
 # NillipussUI 1440p
+
+NillipussUI is a custom user interface for Quarm, an Everquest emulator. This 1440p version is scaled up for larger displays.
 ![1](https://github.com/NilliP/NillipussUI_1440p/assets/169828698/0e29fac3-382a-43f1-bdf6-182c7e6b5d66)
-**1440p UI for Quarm**
 <br>Inspired by Rustle UI, Etasi, and QQui
 
 ### Features
-- Scaled up to fit larger displays
-- [Zeal](https://github.com/iamclint/Zeal/) additions: Mana numbers, Exp Per Hour Percentage, Spell being cast, Loot all, Link all, Change, and Zeal options window.
-- Color-changing HP bars: HP bars will change color based on health %
-- HD Item icons: All item icons (up to Velious) are upscaled.
-- Color Themes: Found in the Options folder. Black & White, Blue, Purple, Teal, Orange.
-- Additional layouts: Found in the Options folder.
-- Most text labels have a drop shadow for better visibility
 
-### [Download the latest release](https://github.com/NilliP/NillipussUI_1440p/releases/latest)
+**Visual Enhancements:**
+- Scaled up to fit larger displays
+- Color-changing HP bars based on health percentage
+- HD item icons: All item icons (up to Velious) are upscaled
+- Multiple color themes (Black & White, Blue, Purple, Teal, Orange)
+- Drop shadows on most text labels for better visibility
+
+**[Zeal](https://github.com/iamclint/Zeal) Integration:**
+- Mana numbers
+- Exp per hour percentage
+- Spell being cast display
+- Loot all, link all, and change functions
+- Zeal options window
+
+### Layout and Customization
+Additional layouts are available in the Options folder:
+- Navigate to the Options folder and select your preferred files.
+- Copy/paste the desired files to the main NillipussUI folder.
+- Reload the UI to apply changes.
+
+With [Zeal](https://github.com/iamclint/Zeal), you can reload the UI by typing `/reloadskin` in-game.
+
+### Download & Installation
+- [Download the latest release](https://github.com/NilliP/NillipussUI_1440p/releases/latest)
 - Extract the NillipussUI_1440p folder to your **uifiles** folder within your main Everquest directory.
-- Type `/load nillipussui_1440p 1` in-game to select it
+- Type `/load nillipussui_1440p 1` in-game to select it.
 
 ### Requirements
-[Zeal](https://github.com/iamclint/Zeal/releases) (Download the Zeal.zip, extract **Zeal.asi** to your Quarm folder.)
+[Zeal](https://github.com/iamclint/Zeal/releases) (Download the Zeal.v######.zip and extract **Zeal.asi** to your Quarm folder.)
 
 ### Other Versions
 [NillipussUI 1080p](https://github.com/NilliP/NillipussUI_1080p) is a smaller, more compact UI designed for 1080p resolution.
