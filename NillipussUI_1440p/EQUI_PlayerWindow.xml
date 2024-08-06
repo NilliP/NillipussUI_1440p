@@ -1129,7 +1129,7 @@
       <Background>Nill_XP_BG_1080</Background>
       <Fill>A_dzThinLongFill_1080</Fill>
       <!--<Lines>A_dzThinLongLines_1080</Lines>-->
-      <!--<LinesFill>A_dzLines_xp</LinesFill>-->
+      <LinesFill>A_dzLines_xp</LinesFill>
     </GaugeDrawTemplate>
   </Gauge>
   <Label item="PW_EXP_Percentage">
