@@ -9,7 +9,7 @@
     <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>245</X>
+      <X>261</X>
       <Y>21</Y>
     </Location>
     <Size>
@@ -32,7 +32,7 @@
     <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>246</X>
+      <X>262</X>
       <Y>22</Y>
     </Location>
     <Size>
@@ -56,7 +56,7 @@
     <EQType>28</EQType>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
+      <X>21</X>
       <Y>0</Y>
     </Location>
     <Size>
@@ -79,7 +79,7 @@
     <EQType>28</EQType>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
+      <X>22</X>
       <Y>1</Y>
     </Location>
     <Size>
@@ -107,7 +107,7 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
+      <X>21</X>
       <Y>20</Y>
     </Location>
     <Size>
@@ -155,7 +155,7 @@
       <CY>1</CY>
     </Size>
     <Location>
-      <X>0</X>
+      <X>16</X>
       <Y>0</Y>
     </Location>
   </StaticAnimation>
@@ -164,7 +164,7 @@
     <!--<Font>5</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
+      <X>21</X>
       <Y>42</Y>
     </Location>
     <Size>
@@ -193,7 +193,7 @@
       <CY>1</CY>
     </Size>
     <Location>
-      <X>0</X>
+      <X>16</X>
       <Y>0</Y>
     </Location>
   </Label>
@@ -203,7 +203,7 @@
     <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>5</X>
+      <X>21</X>
       <Y>41</Y>
     </Location>
     <Size>
@@ -226,7 +226,7 @@
     <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>6</X>
+      <X>22</X>
       <Y>42</Y>
     </Location>
     <Size>
@@ -252,8 +252,8 @@
       <Y>242</Y>
     </Location>
     <Size>
-      <CX>278</CX>
-      <CY>65</CY>
+      <CX>303</CX>
+      <CY>75</CY>
     </Size>
     <Text>Target</Text>
     <TooltipReference>Your Current Target</TooltipReference>
@@ -264,7 +264,7 @@
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
-    <Style_Border>false</Style_Border>
+    <Style_Border>true</Style_Border>
     <Style_Sizable>false</Style_Sizable>
     <Pieces>TW_CastGauge</Pieces>
     <Pieces>Target_HP</Pieces>
@@ -277,5 +277,6 @@
     <Pieces>TargetName</Pieces>
     <Pieces>Target_Casting_SpellNameBG</Pieces>
     <Pieces>Target_Casting_SpellName</Pieces>
+    <Font>5</Font>
   </Screen>
 </XML>
