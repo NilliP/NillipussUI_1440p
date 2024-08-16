@@ -6,11 +6,11 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>0</X>
-      <Y>5</Y>
+      <X>4</X>
+      <Y>0</Y>
     </Location>
     <Size>
-      <CX>200</CX>
+      <CX>164</CX>
       <CY>30</CY>
     </Size>
     <Text>NPC Name</Text>
@@ -22,87 +22,235 @@
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
-    <Font>6</Font>
+    <Font>5</Font>
   </Label>
   <InvSlot item="GVW_MyItemSlot0">
     <ScreenID>GVW_MyItemSlot0</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>0</X>
+      <X>6</X>
       <Y>30</Y>
     </Location>
     <Size>
-      <CX>100</CX>
-      <CY>100</CY>
+      <CX>80</CX>
+      <CY>80</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>3000</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
+    <Font>5</Font>
   </InvSlot>
   <InvSlot item="GVW_MyItemSlot1">
     <ScreenID>GVW_MyItemSlot1</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>100</X>
+      <X>87</X>
       <Y>30</Y>
     </Location>
     <Size>
-      <CX>100</CX>
-      <CY>100</CY>
+      <CX>80</CX>
+      <CY>80</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>3001</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
+    <Font>5</Font>
   </InvSlot>
   <InvSlot item="GVW_MyItemSlot2">
     <ScreenID>GVW_MyItemSlot2</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>0</X>
-      <Y>130</Y>
+      <X>6</X>
+      <Y>111</Y>
     </Location>
     <Size>
-      <CX>100</CX>
-      <CY>100</CY>
+      <CX>80</CX>
+      <CY>80</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>3002</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
+    <Font>5</Font>
   </InvSlot>
   <InvSlot item="GVW_MyItemSlot3">
     <ScreenID>GVW_MyItemSlot3</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>100</X>
-      <Y>130</Y>
+      <X>87</X>
+      <Y>111</Y>
     </Location>
     <Size>
-      <CX>100</CX>
-      <CY>100</CY>
+      <CX>80</CX>
+      <CY>80</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>3003</EQType>
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
+    <Font>5</Font>
   </InvSlot>
+  <Button item="GVW_MyMoney0">
+    <ScreenID>GVW_MyMoney0</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>2</X>
+      <Y>206</Y>
+    </Location>
+    <Size>
+      <CX>170</CX>
+      <CY>24</CY>
+    </Size>
+    <Style_Transparent>false</Style_Transparent>
+    <TooltipReference>Drop coins here</TooltipReference>
+    <Style_Checkbox>false</Style_Checkbox>
+    <RadioGroup />
+    <Text>60000</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <!-- <Normal>A_RecessedCoinBox</Normal> -->
+      <NormalDecal>A_PlatinumCoin</NormalDecal>
+    </ButtonDrawTemplate>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>18</CX>
+      <CY>18</CY>
+    </DecalSize>
+    <Font>5</Font>
+  </Button>
+  <Button item="GVW_MyMoney1">
+    <ScreenID>GVW_MyMoney1</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>2</X>
+      <Y>231</Y>
+    </Location>
+    <Size>
+      <CX>170</CX>
+      <CY>24</CY>
+    </Size>
+    <Style_Transparent>false</Style_Transparent>
+    <TooltipReference>Drop coins here</TooltipReference>
+    <Style_Checkbox>false</Style_Checkbox>
+    <!--<RadioGroup/>-->
+    <Text>60000</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <!-- <Normal>A_RecessedCoinBox</Normal> -->
+      <NormalDecal>A_GoldCoin</NormalDecal>
+    </ButtonDrawTemplate>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>18</CX>
+      <CY>18</CY>
+    </DecalSize>
+    <Font>5</Font>
+  </Button>
+  <Button item="GVW_MyMoney2">
+    <ScreenID>GVW_MyMoney2</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>2</X>
+      <Y>256</Y>
+    </Location>
+    <Size>
+      <CX>170</CX>
+      <CY>24</CY>
+    </Size>
+    <Style_Transparent>false</Style_Transparent>
+    <TooltipReference>Drop coins here</TooltipReference>
+    <Style_Checkbox>false</Style_Checkbox>
+    <!--<RadioGroup/>-->
+    <Text>60000</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <!-- <Normal>A_RecessedCoinBox</Normal> -->
+      <NormalDecal>A_SilverCoin</NormalDecal>
+    </ButtonDrawTemplate>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>18</CX>
+      <CY>18</CY>
+    </DecalSize>
+    <Font>5</Font>
+  </Button>
+  <Button item="GVW_MyMoney3">
+    <ScreenID>GVW_MyMoney3</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>2</X>
+      <Y>281</Y>
+    </Location>
+    <Size>
+      <CX>170</CX>
+      <CY>24</CY>
+    </Size>
+    <Style_Transparent>false</Style_Transparent>
+    <TooltipReference>Drop coins here</TooltipReference>
+    <Style_Checkbox>false</Style_Checkbox>
+    <!--<RadioGroup/>-->
+    <Text>60000</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <!-- <Normal>A_RecessedCoinBox</Normal> -->
+      <NormalDecal>A_CopperCoin</NormalDecal>
+    </ButtonDrawTemplate>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>18</CX>
+      <CY>18</CY>
+    </DecalSize>
+    <Font>5</Font>
+  </Button>
   <Button item="GVW_Give_Button">
     <ScreenID>GVW_Give_Button</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>100</X>
-      <Y>290</Y>
+      <X>3</X>
+      <Y>306</Y>
     </Location>
     <Size>
-      <CX>100</CX>
-      <CY>30</CY>
+      <CX>168</CX>
+      <CY>40</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
@@ -121,163 +269,19 @@
       <Disabled>A_BtnDisabled</Disabled>
       <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
     </ButtonDrawTemplate>
-    <Font>6</Font>
-  </Button>
-  <Button item="GVW_MyMoney0">
-    <ScreenID>GVW_MyMoney0</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>0</X>
-      <Y>230</Y>
-    </Location>
-    <Size>
-      <CX>100</CX>
-      <CY>30</CY>
-    </Size>
-    <Style_Transparent>false</Style_Transparent>
-    <TooltipReference>Drop coins here</TooltipReference>
-    <Style_Checkbox>false</Style_Checkbox>
-    <RadioGroup />
-    <Text>60000</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <ButtonDrawTemplate>
-      <Normal>A_RecessedBox</Normal>
-      <NormalDecal>A_PlatinumCoin</NormalDecal>
-    </ButtonDrawTemplate>
-    <DecalOffset>
-      <X>2</X>
-      <Y>2</Y>
-    </DecalOffset>
-    <DecalSize>
-      <CX>18</CX>
-      <CY>18</CY>
-    </DecalSize>
-    <Font>6</Font>
-  </Button>
-  <Button item="GVW_MyMoney1">
-    <ScreenID>GVW_MyMoney1</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>0</X>
-      <Y>260</Y>
-    </Location>
-    <Size>
-      <CX>100</CX>
-      <CY>30</CY>
-    </Size>
-    <Style_Transparent>false</Style_Transparent>
-    <TooltipReference>Drop coins here</TooltipReference>
-    <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
-    <Text>60000</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <ButtonDrawTemplate>
-      <Normal>A_RecessedBox</Normal>
-      <NormalDecal>A_GoldCoin</NormalDecal>
-    </ButtonDrawTemplate>
-    <DecalOffset>
-      <X>2</X>
-      <Y>2</Y>
-    </DecalOffset>
-    <DecalSize>
-      <CX>18</CX>
-      <CY>18</CY>
-    </DecalSize>
-    <Font>6</Font>
-  </Button>
-  <Button item="GVW_MyMoney2">
-    <ScreenID>GVW_MyMoney2</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>100</X>
-      <Y>230</Y>
-    </Location>
-    <Size>
-      <CX>100</CX>
-      <CY>30</CY>
-    </Size>
-    <Style_Transparent>false</Style_Transparent>
-    <TooltipReference>Drop coins here</TooltipReference>
-    <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
-    <Text>60000</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <ButtonDrawTemplate>
-      <Normal>A_RecessedBox</Normal>
-      <NormalDecal>A_SilverCoin</NormalDecal>
-    </ButtonDrawTemplate>
-    <DecalOffset>
-      <X>2</X>
-      <Y>2</Y>
-    </DecalOffset>
-    <DecalSize>
-      <CX>18</CX>
-      <CY>18</CY>
-    </DecalSize>
-    <Font>6</Font>
-  </Button>
-  <Button item="GVW_MyMoney3">
-    <ScreenID>GVW_MyMoney3</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>100</X>
-      <Y>260</Y>
-    </Location>
-    <Size>
-      <CX>100</CX>
-      <CY>30</CY>
-    </Size>
-    <Style_Transparent>false</Style_Transparent>
-    <TooltipReference>Drop coins here</TooltipReference>
-    <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
-    <Text>60000</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <ButtonDrawTemplate>
-      <Normal>A_RecessedBox</Normal>
-      <NormalDecal>A_CopperCoin</NormalDecal>
-    </ButtonDrawTemplate>
-    <DecalOffset>
-      <X>2</X>
-      <Y>2</Y>
-    </DecalOffset>
-    <DecalSize>
-      <CX>18</CX>
-      <CY>18</CY>
-    </DecalSize>
-    <Font>6</Font>
+    <Font>5</Font>
   </Button>
   <Button item="GVW_Cancel_Button">
     <ScreenID>GVW_Cancel_Button</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>0</X>
-      <Y>290</Y>
+      <X>3</X>
+      <Y>346</Y>
     </Location>
     <Size>
-      <CX>100</CX>
-      <CY>30</CY>
+      <CX>168</CX>
+      <CY>40</CY>
     </Size>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <Style_Transparent>false</Style_Transparent>
@@ -297,7 +301,7 @@
       <Disabled>A_BtnDisabled</Disabled>
       <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
     </ButtonDrawTemplate>
-    <Font>6</Font>
+    <Font>5</Font>
   </Button>
   <Screen item="GiveWnd">
     <!--<ScreenID/>-->
@@ -307,15 +311,15 @@
       <Y>25</Y>
     </Location>
     <Size>
-      <CX>210</CX>
-      <CY>340</CY>
+      <CX>182</CX>
+      <CY>397</CY>
     </Size>
     <Text>Give</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
-    <DrawTemplate>WDT_Rounded</DrawTemplate>
-    <Style_Titlebar>true</Style_Titlebar>
-    <Style_Closebox>true</Style_Closebox>
+    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+    <Style_Titlebar>false</Style_Titlebar>
+    <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
     <Style_Border>true</Style_Border>
     <Style_Sizable>false</Style_Sizable>
@@ -330,6 +334,5 @@
     <Pieces>GVW_MyMoney3</Pieces>
     <Pieces>GVW_Give_Button</Pieces>
     <Pieces>GVW_Cancel_Button</Pieces>
-    <Font>6</Font>
   </Screen>
 </XML>
