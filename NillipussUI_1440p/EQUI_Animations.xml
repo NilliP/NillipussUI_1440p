@@ -4,38 +4,38 @@
   <!-- Custom Cursor -->
   <TextureInfo item="Custom_Cursor.tga">
     <Size>
-      <CX>256</CX>
-      <CY>256</CY>
+      <CX>128</CX>
+      <CY>128</CY>
     </Size>
   </TextureInfo>
   <TextureInfo item="Custom_Cursor_Drag.tga">
     <Size>
-      <CX>256</CX>
-      <CY>256</CY>
+      <CX>128</CX>
+      <CY>128</CY>
     </Size>
   </TextureInfo>
   <TextureInfo item="Custom_Cursor_Resize_EW.tga">
     <Size>
-      <CX>256</CX>
-      <CY>256</CY>
+      <CX>128</CX>
+      <CY>128</CY>
     </Size>
   </TextureInfo>
   <TextureInfo item="Custom_Cursor_Resize_NESW.tga">
     <Size>
-      <CX>256</CX>
-      <CY>256</CY>
+      <CX>128</CX>
+      <CY>128</CY>
     </Size>
   </TextureInfo>
   <TextureInfo item="Custom_Cursor_Resize_NS.tga">
     <Size>
-      <CX>256</CX>
-      <CY>256</CY>
+      <CX>128</CX>
+      <CY>128</CY>
     </Size>
   </TextureInfo>
   <TextureInfo item="Custom_Cursor_Resize_NWSE.tga">
     <Size>
-      <CX>256</CX>
-      <CY>256</CY>
+      <CX>128</CX>
+      <CY>128</CY>
     </Size>
   </TextureInfo>
   <!-- Custom Cursor End -->
@@ -564,7 +564,7 @@
       <CY>128</CY>
     </Size>
   </TextureInfo>
-  <!-- Cursors - Modified from 20 20  to 27 27 for Custom QQQuarm Cursor by Brujoloco -->
+  <!-- Cursors - Modified by Nillipuss -->
   <Ui2DAnimation item="A_DefaultCursor">
     <Cycle>true</Cycle>
     <Frames>
@@ -574,12 +574,12 @@
         <Y>0</Y>
       </Location>
       <Size>
-        <CX>40</CX>
-        <CY>46</CY>
+        <CX>64</CX>
+        <CY>64</CY>
       </Size>
       <Hotspot>
-        <X>10</X>
-        <Y>2</Y>
+        <X>0</X>
+        <Y>0</Y>
       </Hotspot>
       <Duration>1000</Duration>
     </Frames>
@@ -593,12 +593,12 @@
         <Y>0</Y>
       </Location>
       <Size>
-        <CX>44</CX>
-        <CY>44</CY>
+        <CX>64</CX>
+        <CY>64</CY>
       </Size>
       <Hotspot>
-        <X>22</X>
-        <Y>22</Y>
+        <X>24</X>
+        <Y>11</Y>
       </Hotspot>
       <Duration>1000</Duration>
     </Frames>
@@ -612,12 +612,12 @@
         <Y>0</Y>
       </Location>
       <Size>
-        <CX>44</CX>
-        <CY>44</CY>
+        <CX>64</CX>
+        <CY>64</CY>
       </Size>
       <Hotspot>
-        <X>22</X>
-        <Y>22</Y>
+        <X>17</X>
+        <Y>16</Y>
       </Hotspot>
       <Duration>1000</Duration>
     </Frames>
@@ -631,12 +631,12 @@
         <Y>0</Y>
       </Location>
       <Size>
-        <CX>44</CX>
-        <CY>44</CY>
+        <CX>64</CX>
+        <CY>64</CY>
       </Size>
       <Hotspot>
-        <X>22</X>
-        <Y>22</Y>
+        <X>11</X>
+        <Y>24</Y>
       </Hotspot>
       <Duration>1000</Duration>
     </Frames>
@@ -650,12 +650,12 @@
         <Y>0</Y>
       </Location>
       <Size>
-        <CX>44</CX>
-        <CY>44</CY>
+        <CX>64</CX>
+        <CY>64</CY>
       </Size>
       <Hotspot>
-        <X>22</X>
-        <Y>22</Y>
+        <X>16</X>
+        <Y>16</Y>
       </Hotspot>
       <Duration>1000</Duration>
     </Frames>
@@ -669,12 +669,12 @@
         <Y>0</Y>
       </Location>
       <Size>
-        <CX>42</CX>
-        <CY>42</CY>
+        <CX>64</CX>
+        <CY>64</CY>
       </Size>
       <Hotspot>
-        <X>22</X>
-        <Y>22</Y>
+        <X>33</X>
+        <Y>33</Y>
       </Hotspot>
       <Duration>1000</Duration>
     </Frames>
