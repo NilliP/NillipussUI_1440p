@@ -2227,11 +2227,11 @@
     <EQType>2</EQType>
     <Location>
       <X>21</X>
-      <Y>54</Y>
+      <Y>53</Y>
     </Location>
     <Size>
       <CX>40</CX>
-      <CY>2</CY>
+      <CY>4</CY>
     </Size>
     <GaugeDrawTemplate>
       <Background>A_PlayerWindow_Timer_1</Background>
@@ -2242,11 +2242,11 @@
     <EQType>2</EQType>
     <Location>
       <X>61</X>
-      <Y>54</Y>
+      <Y>53</Y>
     </Location>
     <Size>
       <CX>40</CX>
-      <CY>2</CY>
+      <CY>4</CY>
     </Size>
     <GaugeDrawTemplate>
       <Background>A_PlayerWindow_Timer_2</Background>
@@ -2257,11 +2257,11 @@
     <EQType>2</EQType>
     <Location>
       <X>101</X>
-      <Y>54</Y>
+      <Y>53</Y>
     </Location>
     <Size>
       <CX>40</CX>
-      <CY>2</CY>
+      <CY>4</CY>
     </Size>
     <GaugeDrawTemplate>
       <Background>A_PlayerWindow_Timer_3</Background>
@@ -2272,11 +2272,11 @@
     <EQType>2</EQType>
     <Location>
       <X>141</X>
-      <Y>54</Y>
+      <Y>53</Y>
     </Location>
     <Size>
       <CX>40</CX>
-      <CY>2</CY>
+      <CY>4</CY>
     </Size>
     <GaugeDrawTemplate>
       <Background>A_PlayerWindow_Timer_4</Background>
@@ -2287,11 +2287,11 @@
     <EQType>2</EQType>
     <Location>
       <X>181</X>
-      <Y>54</Y>
+      <Y>53</Y>
     </Location>
     <Size>
       <CX>40</CX>
-      <CY>2</CY>
+      <CY>4</CY>
     </Size>
     <GaugeDrawTemplate>
       <Background>A_PlayerWindow_Timer_5</Background>
@@ -2302,11 +2302,11 @@
     <EQType>2</EQType>
     <Location>
       <X>221</X>
-      <Y>54</Y>
+      <Y>53</Y>
     </Location>
     <Size>
       <CX>40</CX>
-      <CY>2</CY>
+      <CY>4</CY>
     </Size>
     <GaugeDrawTemplate>
       <Background>A_PlayerWindow_Timer_6</Background>
