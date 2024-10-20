@@ -2348,7 +2348,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>21</X>
-      <Y>40</Y>
+      <Y>100</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -2367,7 +2367,7 @@
   <Button item="PW_Marker2_Button">
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>61</X>
+      <X>21</X>
       <Y>40</Y>
     </Location>
     <Size>
@@ -2387,7 +2387,7 @@
   <Button item="PW_Marker3_Button">
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>101</X>
+      <X>61</X>
       <Y>40</Y>
     </Location>
     <Size>
@@ -2407,7 +2407,7 @@
   <Button item="PW_Marker4_Button">
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>141</X>
+      <X>101</X>
       <Y>40</Y>
     </Location>
     <Size>
@@ -2427,7 +2427,7 @@
   <Button item="PW_Marker5_Button">
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>181</X>
+      <X>141</X>
       <Y>40</Y>
     </Location>
     <Size>
@@ -2445,6 +2445,26 @@
     </ButtonDrawTemplate>
   </Button>
   <Button item="PW_Marker6_Button">
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>181</X>
+      <Y>40</Y>
+    </Location>
+    <Size>
+      <CX>40</CX>
+      <CY>31</CY>
+    </Size>
+    <Style_Checkbox>true</Style_Checkbox>
+    <RadioGroup>PW_Radios</RadioGroup>
+    <ButtonDrawTemplate>
+      <Normal>nilli_TimerMarkBtnBlank</Normal>
+      <Pressed>nilli_TimerMarkBtn1</Pressed>
+      <Flyby>nilli_TimerMarkBtn1</Flyby>
+      <Disabled>nilli_TimerMarkBtnBlank</Disabled>
+      <PressedFlyby>nilli_TimerMarkBtn1</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="PW_Marker7_Button">
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>221</X>
@@ -2564,6 +2584,7 @@
     <Pieces>PW_Marker4_Button</Pieces>
     <Pieces>PW_Marker5_Button</Pieces>
     <Pieces>PW_Marker6_Button</Pieces>
+    <Pieces>PW_Marker7_Button</Pieces>
     <!--<Pieces>PW_AALabelBG</Pieces>
   <Pieces>PW_AALabel</Pieces>-->
     <Font>4</Font>
