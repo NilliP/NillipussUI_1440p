@@ -1181,14 +1181,14 @@
     <EQType>81</EQType>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>158</X>
+      <X>172</X>
       <Y>71</Y>
     </Location>
     <Size>
       <CX>69</CX>
       <CY>16</CY>
     </Size>
-    <Text>6969</Text>
+    <Text>420</Text>
     <TextColor>
       <R>240</R>
       <G>240</G>
@@ -1204,14 +1204,14 @@
     <EQType>81</EQType>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>159</X>
+      <X>173</X>
       <Y>72</Y>
     </Location>
     <Size>
       <CX>69</CX>
       <CY>16</CY>
     </Size>
-    <Text>6969</Text>
+    <Text>420</Text>
     <TextColor>
       <R>0</R>
       <G>0</G>
@@ -1666,7 +1666,7 @@
     <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>21</X>
+      <X>35</X>
       <Y>71</Y>
     </Location>
     <Size>
@@ -1688,7 +1688,7 @@
     <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>22</X>
+      <X>36</X>
       <Y>72</Y>
     </Location>
     <Size>
