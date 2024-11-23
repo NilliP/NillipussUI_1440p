@@ -707,5 +707,6 @@
     <Pieces>InsertButton</Pieces>
     <Pieces>RemoveButton</Pieces>
     <Pieces>DeleteButton</Pieces>
+    <AutoStretch>true</AutoStretch>
   </Screen>
 </XML>
