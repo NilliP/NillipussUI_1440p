@@ -6,11 +6,11 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>205</X>
-      <Y>310</Y>
+      <X>45</X>
+      <Y>471</Y>
     </Location>
     <Size>
-      <CX>80</CX>
+      <CX>577</CX>
       <CY>24</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
@@ -30,14 +30,15 @@
       <Disabled>A_BtnDisabled</Disabled>
       <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
     </ButtonDrawTemplate>
+    <Font>5</Font>
   </Button>
   <Button item="BOOK_RightButton">
     <ScreenID>RightButton</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>454</X>
-      <Y>150</Y>
+      <X>640</X>
+      <Y>200</Y>
     </Location>
     <Size>
       <CX>30</CX>
@@ -69,7 +70,7 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>2</X>
-      <Y>150</Y>
+      <Y>200</Y>
     </Location>
     <Size>
       <CX>30</CX>
@@ -97,15 +98,15 @@
   </Button>
   <StaticText item="BOOK_Page0Number">
     <ScreenID>Page0Number</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>63</X>
+      <X>75</X>
       <Y>34</Y>
     </Location>
     <Size>
-      <CX>17</CX>
-      <CY>17</CY>
+      <CX>25</CX>
+      <CY>25</CY>
     </Size>
     <Text>0</Text>
     <TextColor>
@@ -119,15 +120,15 @@
   </StaticText>
   <StaticText item="BOOK_Page1Number">
     <ScreenID>Page1Number</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>403</X>
+      <X>575</X>
       <Y>34</Y>
     </Location>
     <Size>
-      <CX>17</CX>
-      <CY>17</CY>
+      <CX>25</CX>
+      <CY>25</CY>
     </Size>
     <Text>1</Text>
     <TextColor>
@@ -141,17 +142,18 @@
   </StaticText>
   <Editbox item="BOOK_Page0">
     <ScreenID>Page0</ScreenID>
+    <Font>5</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_Transparent>true</Style_Transparent>
     <Style_Border>false</Style_Border>
     <Location>
-      <X>62</X>
+      <X>90</X>
       <Y>60</Y>
     </Location>
     <Size>
-      <CX>170</CX>
-      <CY>256</CY>
+      <CX>235</CX>
+      <CY>400</CY>
     </Size>
     <TextColor>
       <R>0</R>
@@ -162,17 +164,18 @@
   </Editbox>
   <Editbox item="BOOK_Page1">
     <ScreenID>Page1</ScreenID>
+    <Font>5</Font>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Style_Transparent>true</Style_Transparent>
     <Style_Border>false</Style_Border>
     <Location>
-      <X>256</X>
+      <X>360</X>
       <Y>60</Y>
     </Location>
     <Size>
-      <CX>170</CX>
-      <CY>256</CY>
+      <CX>235</CX>
+      <CY>400</CY>
     </Size>
     <TextColor>
       <R>0</R>
@@ -189,8 +192,8 @@
       <Y>0</Y>
     </Location>
     <Size>
-      <CX>256</CX>
-      <CY>256</CY>
+      <CX>360</CX>
+      <CY>360</CY>
     </Size>
     <Animation>A_SpellBook01</Animation>
   </StaticAnimation>
@@ -198,12 +201,12 @@
     <ScreenID>BookBG2</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>272</X>
+      <X>376</X>
       <Y>0</Y>
     </Location>
     <Size>
-      <CX>256</CX>
-      <CY>256</CY>
+      <CX>360</CX>
+      <CY>360</CY>
     </Size>
     <Animation>A_SpellBook02</Animation>
   </StaticAnimation>
@@ -212,11 +215,11 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>16</X>
-      <Y>256</Y>
+      <Y>360</Y>
     </Location>
     <Size>
-      <CX>256</CX>
-      <CY>75</CY>
+      <CX>360</CX>
+      <CY>105</CY>
     </Size>
     <Animation>A_SpellBook03</Animation>
   </StaticAnimation>
@@ -224,12 +227,12 @@
     <ScreenID>BookBG4</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>272</X>
-      <Y>256</Y>
+      <X>376</X>
+      <Y>360</Y>
     </Location>
     <Size>
-      <CX>256</CX>
-      <CY>75</CY>
+      <CX>360</CX>
+      <CY>105</CY>
     </Size>
     <Animation>A_SpellBook04</Animation>
   </StaticAnimation>
@@ -242,8 +245,8 @@
       <Y>20</Y>
     </Location>
     <Size>
-      <CX>496</CX>
-      <CY>370</CY>
+      <CX>680</CX>
+      <CY>520</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -266,5 +269,6 @@
     <Pieces>BOOK_Page0Number</Pieces>
     <Pieces>BOOK_Page1Number</Pieces>
     <Pieces>BOOK_DoneButton</Pieces>
+    <Font>5</Font>
   </Screen>
 </XML>

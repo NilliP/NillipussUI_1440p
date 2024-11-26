@@ -8,7 +8,7 @@
     <Style_VScroll>false</Style_VScroll>
     <Style_Border>false</Style_Border>
     <Style_Transparent>true</Style_Transparent>
-    <!--<Font>3</Font>-->
+    <Font>5</Font>
     <TextColor>
       <R>0</R>
       <G>0</G>
@@ -16,11 +16,11 @@
     </TextColor>
     <Location>
       <X>55</X>
-      <Y>83</Y>
+      <Y>81</Y>
     </Location>
     <Size>
-      <CX>285</CX>
-      <CY>255</CY>
+      <CX>265</CX>
+      <CY>233</CY>
     </Size>
     <Text>Test text</Text>
   </STMLbox>
@@ -29,11 +29,11 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>0</X>
-      <Y>0</Y>
+      <Y>1</Y>
     </Location>
     <Size>
-      <CX>266</CX>
-      <CY>310</CY>
+      <CX>256</CX>
+      <CY>301</CY>
     </Size>
     <Animation>A_NoteBG01</Animation>
   </StaticAnimation>
@@ -41,12 +41,12 @@
     <ScreenID>BG2</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>0</Y>
+      <X>256</X>
+      <Y>1</Y>
     </Location>
     <Size>
-      <CX>138</CX>
-      <CY>310</CY>
+      <CX>128</CX>
+      <CY>301</CY>
     </Size>
     <Animation>A_NoteBG02</Animation>
   </StaticAnimation>
@@ -55,11 +55,11 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>0</X>
-      <Y>310</Y>
+      <Y>302</Y>
     </Location>
     <Size>
-      <CX>266</CX>
-      <CY>182</CY>
+      <CX>256</CX>
+      <CY>128</CY>
     </Size>
     <Animation>A_NoteBG03</Animation>
   </StaticAnimation>
@@ -67,12 +67,12 @@
     <ScreenID>BG4</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>266</X>
-      <Y>310</Y>
+      <X>256</X>
+      <Y>302</Y>
     </Location>
     <Size>
-      <CX>138</CX>
-      <CY>182</CY>
+      <CX>128</CX>
+      <CY>128</CY>
     </Size>
     <Animation>A_NoteBG04</Animation>
   </StaticAnimation>
@@ -81,9 +81,9 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>214</LeftAnchorOffset>
+    <LeftAnchorOffset>334</LeftAnchorOffset>
     <TopAnchorOffset>26</TopAnchorOffset>
-    <RightAnchorOffset>134</RightAnchorOffset>
+    <RightAnchorOffset>45</RightAnchorOffset>
     <BottomAnchorOffset>2</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
@@ -109,6 +109,7 @@
     <!--<SoundPressed/>-->
     <!--<<SoundUp/>-->
     <!--<SoundFlyby/>-->
+    <Font>5</Font>
   </Button>
   <Screen item="NoteWindow">
     <!--<ScreenID/>-->
@@ -119,23 +120,26 @@
       <Y>80</Y>
     </Location>
     <Size>
-      <CX>404</CX>
-      <CY>444</CY>
+      <CX>384</CX>
+      <CY>400</CY>
     </Size>
-    <Style_VScroll>true</Style_VScroll>
+    <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
-    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+    <TooltipReference>This is an Item Display window</TooltipReference>
+    <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>true</Style_Minimizebox>
     <Style_Border>true</Style_Border>
-    <Style_Sizable>true</Style_Sizable>
+    <Style_Sizable>false</Style_Sizable>
+    <Text>A Note</Text>
     <Pieces>NW_BG1</Pieces>
     <Pieces>NW_BG2</Pieces>
     <Pieces>NW_BG3</Pieces>
     <Pieces>NW_BG4</Pieces>
     <Pieces>NW_NoteDisplay</Pieces>
     <Pieces>NW_DoneButton</Pieces>
+    <Font>5</Font>
   </Screen>
 </XML>
