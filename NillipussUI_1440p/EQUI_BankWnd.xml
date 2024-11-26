@@ -3,7 +3,6 @@
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Label item="BW_BankerName">
     <ScreenID>BW_BankerName</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>0</X>
@@ -26,7 +25,7 @@
   </Label>
   <InvSlot item="BW_BankSlot0">
     <ScreenID>BW_BankSlot0</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>1</X>
@@ -43,7 +42,7 @@
   </InvSlot>
   <InvSlot item="BW_BankSlot1">
     <ScreenID>BW_BankSlot1</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>1</X>
@@ -60,7 +59,7 @@
   </InvSlot>
   <InvSlot item="BW_BankSlot2">
     <ScreenID>BW_BankSlot2</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>1</X>
@@ -77,7 +76,7 @@
   </InvSlot>
   <InvSlot item="BW_BankSlot3">
     <ScreenID>BW_BankSlot3</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>1</X>
@@ -94,7 +93,7 @@
   </InvSlot>
   <InvSlot item="BW_BankSlot4">
     <ScreenID>BW_BankSlot4</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>81</X>
@@ -111,7 +110,7 @@
   </InvSlot>
   <InvSlot item="BW_BankSlot5">
     <ScreenID>BW_BankSlot5</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>81</X>
@@ -128,7 +127,7 @@
   </InvSlot>
   <InvSlot item="BW_BankSlot6">
     <ScreenID>BW_BankSlot6</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>81</X>
@@ -145,7 +144,7 @@
   </InvSlot>
   <InvSlot item="BW_BankSlot7">
     <ScreenID>BW_BankSlot7</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>81</X>
