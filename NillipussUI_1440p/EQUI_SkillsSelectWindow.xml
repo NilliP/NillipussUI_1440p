@@ -25,6 +25,7 @@
 			<Width>50</Width>
 			<Heading>Value</Heading>
 		</Columns-->
+    <Font>5</Font>
   </Listbox>
   <Screen item="SkillsSelectWindow">
     <!--<ScreenID/>-->
@@ -35,8 +36,8 @@
       <Y>250</Y>
     </Location>
     <Size>
-      <CX>125</CX>
-      <CY>140</CY>
+      <CX>175</CX>
+      <CY>190</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -44,10 +45,11 @@
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Def</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
-    <Style_Closebox>false</Style_Closebox>
+    <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
     <Style_Border>true</Style_Border>
     <Style_Sizable>false</Style_Sizable>
     <Pieces>SKSW_SkillSelectorList</Pieces>
+    <Font>5</Font>
   </Screen>
 </XML>
