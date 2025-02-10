@@ -447,7 +447,7 @@
       <Left>A_RoundedFrameLeft</Left>
       <LeftBottom>A_RoundedFrameLeftBottom</LeftBottom>
       <OverlapLeft>0</OverlapLeft>
-      <OverlapTop>-15</OverlapTop>
+      <OverlapTop>0</OverlapTop>
       <OverlapRight>0</OverlapRight>
       <OverlapBottom>0</OverlapBottom>
     </Border>

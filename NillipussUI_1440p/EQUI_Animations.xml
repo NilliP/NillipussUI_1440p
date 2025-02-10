@@ -3355,8 +3355,8 @@
     <Frames>
       <Texture>window_pieces01.tga</Texture>
       <Location>
-        <X>99</X>
-        <Y>113</Y>
+        <X>12</X>
+        <Y>62</Y>
       </Location>
       <Size>
         <CX>4</CX>
@@ -3374,8 +3374,8 @@
     <Frames>
       <Texture>window_pieces01.tga</Texture>
       <Location>
-        <X>133</X>
-        <Y>113</Y>
+        <X>15</X>
+        <Y>62</Y>
       </Location>
       <Size>
         <CX>4</CX>
