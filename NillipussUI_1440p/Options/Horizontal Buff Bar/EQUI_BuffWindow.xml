@@ -108,6 +108,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>1</Text>
     <TextColor>
       <R>175</R>
@@ -130,6 +131,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>2</Text>
     <TextColor>
       <R>175</R>
@@ -152,6 +154,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>3</Text>
     <TextColor>
       <R>175</R>
@@ -174,6 +177,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>4</Text>
     <TextColor>
       <R>175</R>
@@ -196,6 +200,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>5</Text>
     <TextColor>
       <R>175</R>
@@ -218,6 +223,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>6</Text>
     <TextColor>
       <R>175</R>
@@ -240,6 +246,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>7</Text>
     <TextColor>
       <R>175</R>
@@ -262,6 +269,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>8</Text>
     <TextColor>
       <R>175</R>
@@ -284,6 +292,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>9</Text>
     <TextColor>
       <R>175</R>
@@ -306,6 +315,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>10</Text>
     <TextColor>
       <R>175</R>
@@ -328,6 +338,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>11</Text>
     <TextColor>
       <R>175</R>
@@ -350,6 +361,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>12</Text>
     <TextColor>
       <R>175</R>
@@ -372,6 +384,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>13</Text>
     <TextColor>
       <R>175</R>
@@ -394,6 +407,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>14</Text>
     <TextColor>
       <R>175</R>
@@ -416,6 +430,7 @@
       <CX>24</CX>
       <CY>21</CY>
     </Size>
+    <Font>5</Font>
     <Text>15</Text>
     <TextColor>
       <R>175</R>
@@ -2071,7 +2086,7 @@
     </Location>
     <Size>
       <CX>770</CX>
-      <CY>50</CY>
+      <CY>60</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
