@@ -2484,6 +2484,43 @@
       <PressedFlyby>nilli_TimerMarkBtn1</PressedFlyby>
     </ButtonDrawTemplate>
   </Button>
+  <!-- Zeal Tick -->
+  <Gauge item="Zeal_Tick">
+    <ScreenID>ZealTick</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>21</X>
+      <Y>40</Y>
+    </Location>
+    <Size>
+      <CX>240</CX>
+      <CY>15</CY>
+    </Size>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <TextOffsetX>-500</TextOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>0</R>
+      <G>220</G>
+      <B>220</B>
+    </LinesFillTint>
+    <DrawLinesFill>false</DrawLinesFill>
+    <EQType>24</EQType>
+    <GaugeDrawTemplate>
+      <!--<Background>Nill_Mana_BG</Background>-->
+      <Fill>TickFill</Fill>
+      <!--<Lines>A_dzThinLongLines</Lines>-->
+    </GaugeDrawTemplate>
+  </Gauge>
   <!--***************************************************************-->
   <Screen item="PlayerWindow">
     <!--<ScreenID/>-->
@@ -2572,7 +2609,7 @@
     <Pieces>PW_PercExpHrLabelBG</Pieces>
     <Pieces>PW_PercExpHrLabel</Pieces>
     <Pieces>F1</Pieces>
-    <Pieces>PW_Timer_1</Pieces>
+    <!--<Pieces>PW_Timer_1</Pieces>
     <Pieces>PW_Timer_2</Pieces>
     <Pieces>PW_Timer_3</Pieces>
     <Pieces>PW_Timer_4</Pieces>
@@ -2584,9 +2621,10 @@
     <Pieces>PW_Marker4_Button</Pieces>
     <Pieces>PW_Marker5_Button</Pieces>
     <Pieces>PW_Marker6_Button</Pieces>
-    <Pieces>PW_Marker7_Button</Pieces>
+    <Pieces>PW_Marker7_Button</Pieces>-->
     <!--<Pieces>PW_AALabelBG</Pieces>
-  <Pieces>PW_AALabel</Pieces>-->
+    <Pieces>PW_AALabel</Pieces>-->
+    <Pieces>Zeal_Tick</Pieces>
     <Font>4</Font>
   </Screen>
 </XML>
