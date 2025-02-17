@@ -5515,6 +5515,25 @@
       <Duration>1000</Duration>
     </Frames>
   </Ui2DAnimation>
+  <Ui2DAnimation item="TickFill4k">
+    <Cycle>true</Cycle>
+    <Frames>
+      <Texture>dzbars2x.png</Texture>
+      <Location>
+        <X>5</X>
+        <Y>488</Y>
+      </Location>
+      <Size>
+        <CX>470</CX>
+        <CY>4</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+      <Duration>1000</Duration>
+    </Frames>
+  </Ui2DAnimation>
   <Ui2DAnimation item="SpellRecast">
     <Cycle>true</Cycle>
     <Frames>
