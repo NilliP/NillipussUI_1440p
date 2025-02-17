@@ -1002,6 +1002,44 @@
       <Lines>A_dzThinLongLines</Lines>
     </GaugeDrawTemplate>
   </Gauge>-->
+  <!-- Zeal Tick -->
+  <Gauge item="Zeal_Tick">
+    <ScreenID>ZealTick</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>45</X>
+      <Y>73</Y>
+    </Location>
+    <Size>
+      <CX>470</CX>
+      <CY>4</CY>
+    </Size>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <TextOffsetX>-500</TextOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>0</R>
+      <G>220</G>
+      <B>220</B>
+    </LinesFillTint>
+    <DrawLinesFill>false</DrawLinesFill>
+    <EQType>24</EQType>
+    <GaugeDrawTemplate>
+      <!--<Background>A_dzThinLongBackground</Background>-->
+      <Fill>TickFill4k</Fill>
+      <!--<Lines>A_dzThinLongLines</Lines>-->
+    </GaugeDrawTemplate>
+    <Font>5</Font>
+  </Gauge>
   <Screen item="PlayerWindow">
     <!--<ScreenID/>-->
     <RelativePosition>false</RelativePosition>
@@ -1045,10 +1083,11 @@
     <Pieces>PW_HPNumbers</Pieces>
     <Pieces>PW_HPSlashLabel</Pieces>
     <Pieces>PW_HPNumbersTotal</Pieces>
+    <Pieces>PW_PercExpHrLabel</Pieces>
+    <Pieces>PW_ExpPerHour_Percentage</Pieces>
+    <Pieces>Zeal_Tick</Pieces>
     <Pieces>PW_ManaNumbersCurrent</Pieces>
     <Pieces>PW_MPSlashLabel</Pieces>
     <Pieces>PW_MPNumbersTotal</Pieces>
-    <Pieces>PW_PercExpHrLabel</Pieces>
-    <Pieces>PW_ExpPerHour_Percentage</Pieces>
   </Screen>
 </XML>
