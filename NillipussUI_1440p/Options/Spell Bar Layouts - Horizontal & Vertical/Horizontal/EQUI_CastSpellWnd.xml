@@ -43,7 +43,7 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-    <Label item="CSPW_Spell0_NameBG">
+  <Label item="CSPW_Spell0_NameBG">
     <ScreenID>CSPW_Spell0_NameBG</ScreenID>
     <Font>2</Font>
     <RelativePosition>true</RelativePosition>
@@ -151,7 +151,7 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-    <Label item="CSPW_Spell1_NameBG">
+  <Label item="CSPW_Spell1_NameBG">
     <ScreenID>CSPW_Spell1_NameBG</ScreenID>
     <Font>2</Font>
     <RelativePosition>true</RelativePosition>
@@ -259,7 +259,7 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-    <Label item="CSPW_Spell2_NameBG">
+  <Label item="CSPW_Spell2_NameBG">
     <ScreenID>CSPW_Spell2_NameBG</ScreenID>
     <Font>2</Font>
     <RelativePosition>true</RelativePosition>
@@ -345,7 +345,7 @@
     <SpellIconOffsetX>4</SpellIconOffsetX>
     <SpellIconOffsetY>4</SpellIconOffsetY>
   </SpellGem>
-    <Label item="CSPW_Spell3_Name">
+  <Label item="CSPW_Spell3_Name">
     <ScreenID>CSPW_Spell3_Name</ScreenID>
     <Font>2</Font>
     <RelativePosition>true</RelativePosition>
@@ -475,7 +475,7 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-    <Label item="CSPW_Spell4_NameBG">
+  <Label item="CSPW_Spell4_NameBG">
     <ScreenID>CSPW_Spell4_NameBG</ScreenID>
     <Font>2</Font>
     <RelativePosition>true</RelativePosition>
@@ -583,7 +583,7 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-    <Label item="CSPW_Spell5_NameBG">
+  <Label item="CSPW_Spell5_NameBG">
     <ScreenID>CSPW_Spell5_NameBG</ScreenID>
     <Font>2</Font>
     <RelativePosition>true</RelativePosition>
@@ -691,7 +691,7 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-    <Label item="CSPW_Spell6_NameBG">
+  <Label item="CSPW_Spell6_NameBG">
     <ScreenID>CSPW_Spell6_NameBG</ScreenID>
     <Font>2</Font>
     <RelativePosition>true</RelativePosition>
@@ -799,7 +799,7 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-    <Label item="CSPW_Spell7_NameBG">
+  <Label item="CSPW_Spell7_NameBG">
     <ScreenID>CSPW_Spell7_NameBG</ScreenID>
     <Font>2</Font>
     <RelativePosition>true</RelativePosition>
@@ -940,6 +940,314 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
+  <!-- Zeal Spell Recast -->
+  <Gauge item="CSPW_Spell0_Recast">
+    <ScreenID>CSPW_Spell0_Recast</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>45</Y>
+    </Location>
+    <Size>
+      <CX>48</CX>
+      <CY>4</CY>
+    </Size>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <TextOffsetX>-500</TextOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+      <R>200</R>
+      <G>0</G>
+      <B>200</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>0</R>
+      <G>220</G>
+      <B>220</B>
+    </LinesFillTint>
+    <DrawLinesFill>false</DrawLinesFill>
+    <EQType>26</EQType>
+    <GaugeDrawTemplate>
+      <Fill>SpellRecast</Fill>
+    </GaugeDrawTemplate>
+  </Gauge>
+  <Gauge item="CSPW_Spell1_Recast">
+    <ScreenID>CSPW_Spell1_Recast</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>52</X>
+      <Y>45</Y>
+    </Location>
+    <Size>
+      <CX>48</CX>
+      <CY>4</CY>
+    </Size>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <TextOffsetX>-500</TextOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+      <R>200</R>
+      <G>0</G>
+      <B>200</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>0</R>
+      <G>220</G>
+      <B>220</B>
+    </LinesFillTint>
+    <DrawLinesFill>false</DrawLinesFill>
+    <EQType>27</EQType>
+    <GaugeDrawTemplate>
+      <Fill>SpellRecast</Fill>
+    </GaugeDrawTemplate>
+  </Gauge>
+  <Gauge item="CSPW_Spell2_Recast">
+    <ScreenID>CSPW_Spell2_Recast</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>101</X>
+      <Y>45</Y>
+    </Location>
+    <Size>
+      <CX>48</CX>
+      <CY>4</CY>
+    </Size>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <TextOffsetX>-500</TextOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+      <R>200</R>
+      <G>0</G>
+      <B>200</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>0</R>
+      <G>220</G>
+      <B>220</B>
+    </LinesFillTint>
+    <DrawLinesFill>false</DrawLinesFill>
+    <EQType>28</EQType>
+    <GaugeDrawTemplate>
+      <Fill>SpellRecast</Fill>
+    </GaugeDrawTemplate>
+  </Gauge>
+  <Gauge item="CSPW_Spell3_Recast">
+    <ScreenID>CSPW_Spell3_Recast</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>150</X>
+      <Y>45</Y>
+    </Location>
+    <Size>
+      <CX>48</CX>
+      <CY>4</CY>
+    </Size>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <TextOffsetX>-500</TextOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+      <R>200</R>
+      <G>0</G>
+      <B>200</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>0</R>
+      <G>220</G>
+      <B>220</B>
+    </LinesFillTint>
+    <DrawLinesFill>false</DrawLinesFill>
+    <EQType>29</EQType>
+    <GaugeDrawTemplate>
+      <Fill>SpellRecast</Fill>
+    </GaugeDrawTemplate>
+  </Gauge>
+  <Gauge item="CSPW_Spell4_Recast">
+    <ScreenID>CSPW_Spell4_Recast</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>199</X>
+      <Y>45</Y>
+    </Location>
+    <Size>
+      <CX>48</CX>
+      <CY>4</CY>
+    </Size>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <TextOffsetX>-500</TextOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+      <R>200</R>
+      <G>0</G>
+      <B>200</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>0</R>
+      <G>220</G>
+      <B>220</B>
+    </LinesFillTint>
+    <DrawLinesFill>false</DrawLinesFill>
+    <EQType>30</EQType>
+    <GaugeDrawTemplate>
+      <Fill>SpellRecast</Fill>
+    </GaugeDrawTemplate>
+  </Gauge>
+  <Gauge item="CSPW_Spell5_Recast">
+    <ScreenID>CSPW_Spell5_Recast</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>248</X>
+      <Y>45</Y>
+    </Location>
+    <Size>
+      <CX>48</CX>
+      <CY>4</CY>
+    </Size>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <TextOffsetX>-500</TextOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+      <R>200</R>
+      <G>0</G>
+      <B>200</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>0</R>
+      <G>220</G>
+      <B>220</B>
+    </LinesFillTint>
+    <DrawLinesFill>false</DrawLinesFill>
+    <EQType>31</EQType>
+    <GaugeDrawTemplate>
+      <Fill>SpellRecast</Fill>
+    </GaugeDrawTemplate>
+  </Gauge>
+  <Gauge item="CSPW_Spell6_Recast">
+    <ScreenID>CSPW_Spell6_Recast</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>297</X>
+      <Y>45</Y>
+    </Location>
+    <Size>
+      <CX>48</CX>
+      <CY>4</CY>
+    </Size>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <TextOffsetX>-500</TextOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+      <R>200</R>
+      <G>0</G>
+      <B>200</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>0</R>
+      <G>220</G>
+      <B>220</B>
+    </LinesFillTint>
+    <DrawLinesFill>false</DrawLinesFill>
+    <EQType>32</EQType>
+    <GaugeDrawTemplate>
+      <Fill>SpellRecast</Fill>
+    </GaugeDrawTemplate>
+  </Gauge>
+  <Gauge item="CSPW_Spell7_Recast">
+    <ScreenID>CSPW_Spell7_Recast</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>346</X>
+      <Y>45</Y>
+    </Location>
+    <Size>
+      <CX>48</CX>
+      <CY>4</CY>
+    </Size>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <TextOffsetX>-500</TextOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+      <R>200</R>
+      <G>0</G>
+      <B>200</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>0</R>
+      <G>220</G>
+      <B>220</B>
+    </LinesFillTint>
+    <DrawLinesFill>false</DrawLinesFill>
+    <EQType>33</EQType>
+    <GaugeDrawTemplate>
+      <Fill>SpellRecast</Fill>
+    </GaugeDrawTemplate>
+  </Gauge>
+  <Gauge item="CSPW_Global_Recast">
+    <ScreenID>CSPW_Global_Recast</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>395</X>
+      <Y>45</Y>
+    </Location>
+    <Size>
+      <CX>48</CX>
+      <CY>4</CY>
+    </Size>
+    <GaugeOffsetY>0</GaugeOffsetY>
+    <TextOffsetX>-500</TextOffsetX>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <FillTint>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </FillTint>
+    <LinesFillTint>
+      <R>0</R>
+      <G>220</G>
+      <B>220</B>
+    </LinesFillTint>
+    <DrawLinesFill>false</DrawLinesFill>
+    <EQType>25</EQType>
+    <GaugeDrawTemplate>
+      <Fill>SpellRecast</Fill>
+    </GaugeDrawTemplate>
+  </Gauge>
+  <!-- ********** -->
   <Screen item="CastSpellWnd">
     <!--<ScreenID/>-->
     <!--<Font/>-->
@@ -979,7 +1287,6 @@
     <Pieces>CSPW_Spell5_NameBG</Pieces>
     <Pieces>CSPW_Spell6_NameBG</Pieces>
     <Pieces>CSPW_Spell7_NameBG</Pieces>
-
     <Pieces>CSPW_Spell0_Name</Pieces>
     <Pieces>CSPW_Spell1_Name</Pieces>
     <Pieces>CSPW_Spell2_Name</Pieces>
@@ -1005,5 +1312,15 @@
     <Pieces>CSPW_Spell6_No</Pieces>
     <Pieces>CSPW_Spell7_No</Pieces>
     <!--<Pieces>CSPW_SpellBook_Icon</Pieces>-->
+    <!-- Zeal Spell Recast Gauges -->
+    <Pieces>CSPW_Spell0_Recast</Pieces>
+    <Pieces>CSPW_Spell1_Recast</Pieces>
+    <Pieces>CSPW_Spell2_Recast</Pieces>
+    <Pieces>CSPW_Spell3_Recast</Pieces>
+    <Pieces>CSPW_Spell4_Recast</Pieces>
+    <Pieces>CSPW_Spell5_Recast</Pieces>
+    <Pieces>CSPW_Spell6_Recast</Pieces>
+    <Pieces>CSPW_Spell7_Recast</Pieces>
+    <Pieces>CSPW_Global_Recast</Pieces>
   </Screen>
 </XML>
