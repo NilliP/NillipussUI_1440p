@@ -135,6 +135,7 @@
     <Choices>Leader Only</Choices>
     <Choices>Leader and Group Leaders</Choices>
     <Choices>Leader Selected</Choices>
+    <Choices>Free For All</Choices>
   </Combobox>
   <Label item="RAIDOPTIONS_ClassColorLabel">
     <ScreenID>RAIDOPTIONS_ClassColorLabel</ScreenID>
