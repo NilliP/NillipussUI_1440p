@@ -27,6 +27,10 @@ NillipussUI is a custom user interface for Quarm, an Everquest emulator. This 14
 - Spell being cast display
 - Loot all, link all, and change functions
 - Zeal options window
+- Song window
+- Global cooldown timer
+- Spell gem cooldown timer
+- Tick timer
 
 ### Layout and Customization
 Additional layouts are available in the Options folder:
