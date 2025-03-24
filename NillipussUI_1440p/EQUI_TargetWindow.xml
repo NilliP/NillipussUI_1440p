@@ -286,7 +286,7 @@
       <!--<Lines>A_dzThinLongLines</Lines>-->
     </GaugeDrawTemplate>
     <Text>2</Text>
-    <TextOffsetY>3</TextOffsetY>
+    <TextOffsetY>-500</TextOffsetY>
     <Font>5</Font>
   </Gauge>
   <!--******************************************************************************************************-->
