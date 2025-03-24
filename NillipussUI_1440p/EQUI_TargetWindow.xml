@@ -259,7 +259,7 @@
     </Location>
     <Size>
       <CX>240</CX>
-      <CY>16</CY>
+      <CY>19</CY>
     </Size>
     <GaugeOffsetY>0</GaugeOffsetY>
     <TextOffsetX>115</TextOffsetX>
@@ -287,7 +287,7 @@
     </GaugeDrawTemplate>
     <Text>2</Text>
     <TextOffsetY>3</TextOffsetY>
-    <Font>3</Font>
+    <Font>5</Font>
   </Gauge>
   <!--******************************************************************************************************-->
   <Screen item="TargetWindow">
