@@ -1524,7 +1524,7 @@
     <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>34</X>
+      <X>19</X>
       <Y>396</Y>
     </Location>
     <Size>
@@ -1968,6 +1968,96 @@
   <Button item="IW_EvilPoints">
     <ScreenID>IW_EvilPoints</ScreenID>
   </Button>
+  <Label item="IW_BagSlotsLabel">
+    <ScreenID>BagSlotsLabel</ScreenID>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>19</X>
+      <Y>415</Y>
+    </Location>
+    <Size>
+      <CX>105</CX>
+      <CY>20</CY>
+    </Size>
+    <Text>BAG SLOTS</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="IW_ZealSlotsFilled">
+    <ScreenID>ZealSlotsFilled</ScreenID>
+    <EQType>85</EQType>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>92</X>
+      <Y>415</Y>
+    </Location>
+    <Size>
+      <CX>65</CX>
+      <CY>20</CY>
+    </Size>
+    <Text>255</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="IW_SlotsSlashLabel">
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>159</X>
+      <Y>415</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>20</CY>
+    </Size>
+    <Text>/</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <AlignLeft>false</AlignLeft>
+  </Label>
+  <Label item="IW_ZealSlotsTotal">
+    <EQType>84</EQType>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>170</X>
+      <Y>415</Y>
+    </Location>
+    <Size>
+      <CX>65</CX>
+      <CY>20</CY>
+    </Size>
+    <Text>255</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <AlignLeft>true</AlignLeft>
+  </Label>
   <Screen item="InventoryWindow">
     <!--<ScreenID/>-->
     <RelativePosition>false</RelativePosition>
@@ -2079,5 +2169,9 @@
     <!-- <Pieces>IW_FacePick</Pieces> -->
     <Pieces>IW_Tinting</Pieces>
     <Pieces>ClassAnim</Pieces>
+    <Pieces>IW_BagSlotsLabel</Pieces>
+    <Pieces>IW_ZealSlotsTotal</Pieces>
+    <Pieces>IW_ZealSlotsFilled</Pieces>
+    <Pieces>IW_SlotsSlashLabel</Pieces>
   </Screen>
 </XML>
