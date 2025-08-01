@@ -10,7 +10,7 @@ NillipussUI is a custom user interface for Quarm, an Everquest emulator. This 14
 - Type `/load nillipussui_1440p 1` in-game to select it.
 
 ### Requirements
-[Zeal](https://github.com/iamclint/Zeal/releases) is required to display various elements, detailed installation instructions found [here](https://github.com/iamclint/Zeal?tab=readme-ov-file#installation)
+[Zeal](https://github.com/CoastalRedwood/Zeal?tab=readme-ov-file#installation) is required to display various elements, detailed installation instructions found [here](https://quarm.guide/installing-the-game#step-4-installing-zeal-)
 
 ### Features
 
@@ -38,7 +38,7 @@ Additional layouts are available in the Options folder:
 - Copy/paste the desired files to the main NillipussUI folder.
 - Reload the UI to apply changes.
 
-With [Zeal](https://github.com/iamclint/Zeal), you can reload the UI by typing `/reloadskin` in-game.
+With [Zeal](https://github.com/CoastalRedwood/Zeal), you can reload the UI by typing `/reloadskin` in-game.
 
 ### Other Versions
 [NillipussUI 1080p](https://github.com/NilliP/NillipussUI_1080p) is a smaller, more compact UI designed for 1080p resolution.
