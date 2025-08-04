@@ -2603,6 +2603,97 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>true</AlignRight>
   </Label>
+  <!-- AA/HR -->
+  <Label item="PW_AAHRLabel">
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>35</X>
+      <Y>87</Y>
+    </Location>
+    <Size>
+      <CX>215</CX>
+      <CY>16</CY>
+    </Size>
+    <Text>AA/HR:</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <AlignLeft>false</AlignLeft>
+  </Label>
+  <Label item="PW_AAHRLabelBG">
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>36</X>
+      <Y>88</Y>
+    </Location>
+    <Size>
+      <CX>215</CX>
+      <CY>16</CY>
+    </Size>
+    <Text>AA/HR:</Text>
+    <TextColor>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <AlignLeft>false</AlignLeft>
+  </Label>
+  <Label item="PW_AAHR_Percentage">
+    <Font>5</Font>
+    <EQType>86</EQType>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>172</X>
+      <Y>87</Y>
+    </Location>
+    <Size>
+      <CX>69</CX>
+      <CY>16</CY>
+    </Size>
+    <Text>420</Text>
+    <TextColor>
+      <R>240</R>
+      <G>240</G>
+      <B>240</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <AlignLeft>true</AlignLeft>
+  </Label>
+  <Label item="PW_AAHR_PercentageBG">
+    <Font>5</Font>
+    <EQType>86</EQType>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>173</X>
+      <Y>88</Y>
+    </Location>
+    <Size>
+      <CX>69</CX>
+      <CY>16</CY>
+    </Size>
+    <Text>420</Text>
+    <TextColor>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <AlignLeft>true</AlignLeft>
+  </Label>
   <!--***************************************************************-->
   <Screen item="PlayerWindow">
     <!--<ScreenID/>-->
@@ -2710,6 +2801,10 @@
     <Pieces>PW_AAExpGauge</Pieces>
     <Pieces>PW_AAEXP_PercentageBG</Pieces>
     <Pieces>PW_AAEXP_Percentage</Pieces>
+    <Pieces>PW_AAHRLabelBG</Pieces>
+    <Pieces>PW_AAHRLabel</Pieces>
+    <Pieces>PW_AAHR_PercentageBG</Pieces>
+    <Pieces>PW_AAHR_Percentage</Pieces>
     <Font>4</Font>
   </Screen>
 </XML>
