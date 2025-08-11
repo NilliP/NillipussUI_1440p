@@ -760,13 +760,13 @@
       <Y>50</Y>
     </Location>
     <Size>
-      <CX>515</CX>
-      <CY>400</CY>
+      <CX>650</CX>
+      <CY>450</CY>
     </Size>
     <Text>Bazaar Search Window</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
-    <DrawTemplate>WDT_Def</DrawTemplate>
+    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>true</Style_Minimizebox>
