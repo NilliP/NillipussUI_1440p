@@ -1788,7 +1788,7 @@
     <Text>Bazaar Vendor</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
-    <DrawTemplate>WDT_Def</DrawTemplate>
+    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>true</Style_Minimizebox>
