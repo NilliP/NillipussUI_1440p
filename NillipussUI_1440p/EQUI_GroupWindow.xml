@@ -2373,7 +2373,7 @@
   <!--*******************************************************************************************-->
   <!-- Party Name Labels-->
   <Label item="Party1">
-    <ScreenID>Party1</ScreenID>
+    <ScreenID>Gauge1</ScreenID>
     <Font>5</Font>
     <EQType>30</EQType>
     <RelativePosition>true</RelativePosition>
@@ -2396,7 +2396,7 @@
     <Style_Tooltip>false</Style_Tooltip>
   </Label>
   <Label item="Party2">
-    <ScreenID>Party2</ScreenID>
+    <ScreenID>Gauge2</ScreenID>
     <Font>5</Font>
     <EQType>31</EQType>
     <RelativePosition>true</RelativePosition>
@@ -2419,7 +2419,7 @@
     <Style_Tooltip>false</Style_Tooltip>
   </Label>
   <Label item="Party3">
-    <ScreenID>Party3</ScreenID>
+    <ScreenID>Gauge3</ScreenID>
     <Font>5</Font>
     <EQType>32</EQType>
     <RelativePosition>true</RelativePosition>
@@ -2442,7 +2442,7 @@
     <Style_Tooltip>false</Style_Tooltip>
   </Label>
   <Label item="Party4">
-    <ScreenID>Party4</ScreenID>
+    <ScreenID>Gauge4</ScreenID>
     <Font>5</Font>
     <EQType>33</EQType>
     <RelativePosition>true</RelativePosition>
@@ -2465,7 +2465,7 @@
     <Style_Tooltip>false</Style_Tooltip>
   </Label>
   <Label item="Party5">
-    <ScreenID>Party5</ScreenID>
+    <ScreenID>Gauge5</ScreenID>
     <Font>5</Font>
     <EQType>34</EQType>
     <RelativePosition>true</RelativePosition>
