@@ -3,14 +3,14 @@
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Label item="MW_MerchantName">
     <ScreenID>MW_MerchantName</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>0</X>
       <Y>1</Y>
     </Location>
     <Size>
-      <CX>342</CX>
+      <CX>124</CX>
       <CY>40</CY>
     </Size>
     <Text>Blahblahblah's Merchant</Text>
@@ -26,15 +26,15 @@
   </Label>
   <InvSlot item="MW_MerchantSlot0">
     <ScreenID>MW_MerchantSlot0</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>1</X>
-      <Y>1</Y>
+      <X>3</X>
+      <Y>0</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6000</EQType>
@@ -43,15 +43,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot1">
     <ScreenID>MW_MerchantSlot1</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>47</X>
-      <Y>1</Y>
+      <X>63</X>
+      <Y>0</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6001</EQType>
@@ -60,15 +60,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot2">
     <ScreenID>MW_MerchantSlot2</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>93</X>
-      <Y>1</Y>
+      <X>3</X>
+      <Y>60</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6002</EQType>
@@ -77,15 +77,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot3">
     <ScreenID>MW_MerchantSlot3</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>139</X>
-      <Y>1</Y>
+      <X>63</X>
+      <Y>60</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6003</EQType>
@@ -94,15 +94,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot4">
     <ScreenID>MW_MerchantSlot4</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>185</X>
-      <Y>1</Y>
+      <X>3</X>
+      <Y>120</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6004</EQType>
@@ -111,15 +111,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot5">
     <ScreenID>MW_MerchantSlot5</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>231</X>
-      <Y>1</Y>
+      <X>63</X>
+      <Y>120</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6005</EQType>
@@ -128,15 +128,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot6">
     <ScreenID>MW_MerchantSlot6</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>277</X>
-      <Y>1</Y>
+      <X>3</X>
+      <Y>180</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6006</EQType>
@@ -145,15 +145,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot7">
     <ScreenID>MW_MerchantSlot7</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>323</X>
-      <Y>1</Y>
+      <X>63</X>
+      <Y>180</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6007</EQType>
@@ -162,15 +162,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot8">
     <ScreenID>MW_MerchantSlot8</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>1</X>
-      <Y>47</Y>
+      <X>3</X>
+      <Y>240</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6008</EQType>
@@ -179,15 +179,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot9">
     <ScreenID>MW_MerchantSlot9</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>47</X>
-      <Y>47</Y>
+      <X>63</X>
+      <Y>240</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6009</EQType>
@@ -196,15 +196,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot10">
     <ScreenID>MW_MerchantSlot10</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>93</X>
-      <Y>47</Y>
+      <X>3</X>
+      <Y>300</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6010</EQType>
@@ -213,15 +213,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot11">
     <ScreenID>MW_MerchantSlot11</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>139</X>
-      <Y>47</Y>
+      <X>63</X>
+      <Y>300</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6011</EQType>
@@ -230,15 +230,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot12">
     <ScreenID>MW_MerchantSlot12</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>185</X>
-      <Y>47</Y>
+      <X>3</X>
+      <Y>360</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6012</EQType>
@@ -247,15 +247,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot13">
     <ScreenID>MW_MerchantSlot13</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>231</X>
-      <Y>47</Y>
+      <X>63</X>
+      <Y>360</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6013</EQType>
@@ -264,15 +264,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot14">
     <ScreenID>MW_MerchantSlot14</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>277</X>
-      <Y>47</Y>
+      <X>3</X>
+      <Y>420</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6014</EQType>
@@ -281,15 +281,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot15">
     <ScreenID>MW_MerchantSlot15</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>323</X>
-      <Y>47</Y>
+      <X>63</X>
+      <Y>420</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6015</EQType>
@@ -298,15 +298,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot16">
     <ScreenID>MW_MerchantSlot16</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>1</X>
-      <Y>93</Y>
+      <X>3</X>
+      <Y>480</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6016</EQType>
@@ -315,15 +315,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot17">
     <ScreenID>MW_MerchantSlot17</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>47</X>
-      <Y>93</Y>
+      <X>63</X>
+      <Y>480</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6017</EQType>
@@ -332,15 +332,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot18">
     <ScreenID>MW_MerchantSlot18</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>93</X>
-      <Y>93</Y>
+      <X>3</X>
+      <Y>540</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6018</EQType>
@@ -349,15 +349,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot19">
     <ScreenID>MW_MerchantSlot19</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>139</X>
-      <Y>93</Y>
+      <X>63</X>
+      <Y>540</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6019</EQType>
@@ -366,15 +366,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot20">
     <ScreenID>MW_MerchantSlot20</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>185</X>
-      <Y>93</Y>
+      <X>3</X>
+      <Y>600</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6020</EQType>
@@ -383,15 +383,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot21">
     <ScreenID>MW_MerchantSlot21</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>231</X>
-      <Y>93</Y>
+      <X>63</X>
+      <Y>600</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6021</EQType>
@@ -400,15 +400,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot22">
     <ScreenID>MW_MerchantSlot22</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>277</X>
-      <Y>93</Y>
+      <X>3</X>
+      <Y>660</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6022</EQType>
@@ -417,15 +417,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot23">
     <ScreenID>MW_MerchantSlot23</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>323</X>
-      <Y>93</Y>
+      <X>63</X>
+      <Y>660</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6023</EQType>
@@ -434,15 +434,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot24">
     <ScreenID>MW_MerchantSlot24</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>1</X>
-      <Y>139</Y>
+      <X>3</X>
+      <Y>720</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6024</EQType>
@@ -451,15 +451,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot25">
     <ScreenID>MW_MerchantSlot25</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>47</X>
-      <Y>139</Y>
+      <X>63</X>
+      <Y>720</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6025</EQType>
@@ -468,15 +468,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot26">
     <ScreenID>MW_MerchantSlot26</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>93</X>
-      <Y>139</Y>
+      <X>3</X>
+      <Y>780</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6026</EQType>
@@ -485,15 +485,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot27">
     <ScreenID>MW_MerchantSlot27</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>139</X>
-      <Y>139</Y>
+      <X>63</X>
+      <Y>780</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6027</EQType>
@@ -502,15 +502,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot28">
     <ScreenID>MW_MerchantSlot28</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>185</X>
-      <Y>139</Y>
+      <X>3</X>
+      <Y>840</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6028</EQType>
@@ -519,15 +519,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot29">
     <ScreenID>MW_MerchantSlot29</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>231</X>
-      <Y>139</Y>
+      <X>63</X>
+      <Y>840</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6029</EQType>
@@ -536,15 +536,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot30">
     <ScreenID>MW_MerchantSlot30</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>277</X>
-      <Y>139</Y>
+      <X>3</X>
+      <Y>900</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6030</EQType>
@@ -553,15 +553,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot31">
     <ScreenID>MW_MerchantSlot31</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>323</X>
-      <Y>139</Y>
+      <X>63</X>
+      <Y>900</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6031</EQType>
@@ -570,15 +570,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot32">
     <ScreenID>MW_MerchantSlot32</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>1</X>
-      <Y>185</Y>
+      <X>3</X>
+      <Y>960</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6032</EQType>
@@ -587,15 +587,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot33">
     <ScreenID>MW_MerchantSlot33</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>47</X>
-      <Y>185</Y>
+      <X>63</X>
+      <Y>960</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6033</EQType>
@@ -604,15 +604,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot34">
     <ScreenID>MW_MerchantSlot34</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>93</X>
-      <Y>185</Y>
+      <X>3</X>
+      <Y>1020</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6034</EQType>
@@ -621,15 +621,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot35">
     <ScreenID>MW_MerchantSlot35</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>139</X>
-      <Y>185</Y>
+      <X>63</X>
+      <Y>1020</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6035</EQType>
@@ -638,15 +638,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot36">
     <ScreenID>MW_MerchantSlot36</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>185</X>
-      <Y>185</Y>
+      <X>3</X>
+      <Y>1080</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6036</EQType>
@@ -655,15 +655,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot37">
     <ScreenID>MW_MerchantSlot37</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>231</X>
-      <Y>185</Y>
+      <X>63</X>
+      <Y>1080</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6037</EQType>
@@ -672,15 +672,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot38">
     <ScreenID>MW_MerchantSlot38</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>277</X>
-      <Y>185</Y>
+      <X>3</X>
+      <Y>1140</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6038</EQType>
@@ -689,15 +689,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot39">
     <ScreenID>MW_MerchantSlot39</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>323</X>
-      <Y>185</Y>
+      <X>63</X>
+      <Y>1140</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6039</EQType>
@@ -706,15 +706,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot40">
     <ScreenID>MW_MerchantSlot40</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>1</X>
-      <Y>231</Y>
+      <X>3</X>
+      <Y>1200</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6040</EQType>
@@ -723,15 +723,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot41">
     <ScreenID>MW_MerchantSlot41</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>47</X>
-      <Y>231</Y>
+      <X>63</X>
+      <Y>1200</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6041</EQType>
@@ -740,15 +740,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot42">
     <ScreenID>MW_MerchantSlot42</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>93</X>
-      <Y>231</Y>
+      <X>3</X>
+      <Y>1260</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6042</EQType>
@@ -757,15 +757,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot43">
     <ScreenID>MW_MerchantSlot43</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>139</X>
-      <Y>231</Y>
+      <X>63</X>
+      <Y>1260</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6043</EQType>
@@ -774,15 +774,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot44">
     <ScreenID>MW_MerchantSlot44</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>185</X>
-      <Y>231</Y>
+      <X>3</X>
+      <Y>1320</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6044</EQType>
@@ -791,15 +791,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot45">
     <ScreenID>MW_MerchantSlot45</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>231</X>
-      <Y>231</Y>
+      <X>63</X>
+      <Y>1320</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6045</EQType>
@@ -808,15 +808,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot46">
     <ScreenID>MW_MerchantSlot46</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>277</X>
-      <Y>231</Y>
+      <X>3</X>
+      <Y>1380</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6046</EQType>
@@ -825,15 +825,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot47">
     <ScreenID>MW_MerchantSlot47</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>323</X>
-      <Y>231</Y>
+      <X>63</X>
+      <Y>1380</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6047</EQType>
@@ -842,15 +842,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot48">
     <ScreenID>MW_MerchantSlot48</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>1</X>
-      <Y>277</Y>
+      <X>3</X>
+      <Y>1440</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6048</EQType>
@@ -859,15 +859,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot49">
     <ScreenID>MW_MerchantSlot49</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>47</X>
-      <Y>277</Y>
+      <X>63</X>
+      <Y>1440</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6049</EQType>
@@ -876,15 +876,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot50">
     <ScreenID>MW_MerchantSlot50</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>93</X>
-      <Y>277</Y>
+      <X>3</X>
+      <Y>1500</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6050</EQType>
@@ -893,15 +893,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot51">
     <ScreenID>MW_MerchantSlot51</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>139</X>
-      <Y>277</Y>
+      <X>63</X>
+      <Y>1500</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6051</EQType>
@@ -910,15 +910,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot52">
     <ScreenID>MW_MerchantSlot52</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>185</X>
-      <Y>277</Y>
+      <X>3</X>
+      <Y>1560</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6052</EQType>
@@ -927,15 +927,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot53">
     <ScreenID>MW_MerchantSlot53</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>231</X>
-      <Y>277</Y>
+      <X>63</X>
+      <Y>1560</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6053</EQType>
@@ -944,15 +944,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot54">
     <ScreenID>MW_MerchantSlot54</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>277</X>
-      <Y>277</Y>
+      <X>3</X>
+      <Y>1620</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6054</EQType>
@@ -961,15 +961,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot55">
     <ScreenID>MW_MerchantSlot55</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>323</X>
-      <Y>277</Y>
+      <X>63</X>
+      <Y>1620</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6055</EQType>
@@ -978,15 +978,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot56">
     <ScreenID>MW_MerchantSlot56</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>1</X>
-      <Y>323</Y>
+      <X>3</X>
+      <Y>1680</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6056</EQType>
@@ -995,15 +995,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot57">
     <ScreenID>MW_MerchantSlot57</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>47</X>
-      <Y>323</Y>
+      <X>63</X>
+      <Y>1680</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6057</EQType>
@@ -1012,15 +1012,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot58">
     <ScreenID>MW_MerchantSlot58</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>93</X>
-      <Y>323</Y>
+      <X>3</X>
+      <Y>1740</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6058</EQType>
@@ -1029,15 +1029,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot59">
     <ScreenID>MW_MerchantSlot59</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>139</X>
-      <Y>323</Y>
+      <X>63</X>
+      <Y>1740</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6059</EQType>
@@ -1046,15 +1046,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot60">
     <ScreenID>MW_MerchantSlot60</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>185</X>
-      <Y>323</Y>
+      <X>3</X>
+      <Y>1800</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6060</EQType>
@@ -1063,15 +1063,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot61">
     <ScreenID>MW_MerchantSlot61</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>231</X>
-      <Y>323</Y>
+      <X>63</X>
+      <Y>1800</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6061</EQType>
@@ -1080,15 +1080,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot62">
     <ScreenID>MW_MerchantSlot62</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>277</X>
-      <Y>323</Y>
+      <X>3</X>
+      <Y>1860</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6062</EQType>
@@ -1097,15 +1097,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot63">
     <ScreenID>MW_MerchantSlot63</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>323</X>
-      <Y>323</Y>
+      <X>63</X>
+      <Y>1860</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6063</EQType>
@@ -1114,15 +1114,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot64">
     <ScreenID>MW_MerchantSlot64</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>1</X>
-      <Y>369</Y>
+      <X>3</X>
+      <Y>1920</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6064</EQType>
@@ -1131,15 +1131,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot65">
     <ScreenID>MW_MerchantSlot65</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>47</X>
-      <Y>369</Y>
+      <X>63</X>
+      <Y>1920</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6065</EQType>
@@ -1148,15 +1148,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot66">
     <ScreenID>MW_MerchantSlot66</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>93</X>
-      <Y>369</Y>
+      <X>3</X>
+      <Y>1979</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6066</EQType>
@@ -1165,15 +1165,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot67">
     <ScreenID>MW_MerchantSlot67</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>139</X>
-      <Y>369</Y>
+      <X>63</X>
+      <Y>1979</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6067</EQType>
@@ -1182,15 +1182,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot68">
     <ScreenID>MW_MerchantSlot68</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>185</X>
-      <Y>369</Y>
+      <X>3</X>
+      <Y>2039</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6068</EQType>
@@ -1199,15 +1199,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot69">
     <ScreenID>MW_MerchantSlot69</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>231</X>
-      <Y>369</Y>
+      <X>63</X>
+      <Y>2039</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6069</EQType>
@@ -1216,15 +1216,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot70">
     <ScreenID>MW_MerchantSlot70</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>277</X>
-      <Y>369</Y>
+      <X>3</X>
+      <Y>2099</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6070</EQType>
@@ -1233,15 +1233,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot71">
     <ScreenID>MW_MerchantSlot71</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>323</X>
-      <Y>369</Y>
+      <X>63</X>
+      <Y>2099</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6071</EQType>
@@ -1250,15 +1250,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot72">
     <ScreenID>MW_MerchantSlot72</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>1</X>
-      <Y>415</Y>
+      <X>3</X>
+      <Y>2158</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6072</EQType>
@@ -1267,15 +1267,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot73">
     <ScreenID>MW_MerchantSlot73</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>47</X>
-      <Y>415</Y>
+      <X>63</X>
+      <Y>2158</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6073</EQType>
@@ -1284,15 +1284,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot74">
     <ScreenID>MW_MerchantSlot74</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>93</X>
-      <Y>415</Y>
+      <X>3</X>
+      <Y>2218</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6074</EQType>
@@ -1301,15 +1301,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot75">
     <ScreenID>MW_MerchantSlot75</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>139</X>
-      <Y>415</Y>
+      <X>63</X>
+      <Y>2218</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6075</EQType>
@@ -1318,15 +1318,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot76">
     <ScreenID>MW_MerchantSlot76</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>185</X>
-      <Y>415</Y>
+      <X>3</X>
+      <Y>2278</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6076</EQType>
@@ -1335,15 +1335,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot77">
     <ScreenID>MW_MerchantSlot77</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>231</X>
-      <Y>415</Y>
+      <X>63</X>
+      <Y>2278</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6077</EQType>
@@ -1352,15 +1352,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot78">
     <ScreenID>MW_MerchantSlot78</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>277</X>
-      <Y>415</Y>
+      <X>3</X>
+      <Y>2338</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6078</EQType>
@@ -1369,15 +1369,15 @@
   </InvSlot>
   <InvSlot item="MW_MerchantSlot79">
     <ScreenID>MW_MerchantSlot79</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>323</X>
-      <Y>415</Y>
+      <X>63</X>
+      <Y>2338</Y>
     </Location>
     <Size>
-      <CX>46</CX>
-      <CY>46</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </Size>
     <Background>A_RecessedBox</Background>
     <EQType>6079</EQType>
@@ -1388,14 +1388,14 @@
     <ScreenID>MerchantSlotsWnd</ScreenID>
     <!--<Font/>-->
     <RelativePosition>true</RelativePosition>
-    <AutoStretch>false</AutoStretch>
+    <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>0</LeftAnchorOffset>
-    <TopAnchorOffset>7</TopAnchorOffset>
+    <TopAnchorOffset>37</TopAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <BottomAnchorOffset>167</BottomAnchorOffset>
+    <BottomAnchorOffset>162</BottomAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <BottomAnchorToTop>false</BottomAnchorToTop>
-    <Style_VScroll>false</Style_VScroll>
+    <Style_VScroll>true</Style_VScroll>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Def</DrawTemplate>
@@ -1485,23 +1485,100 @@
     <Pieces>MW_MerchantSlot78</Pieces>
     <Pieces>MW_MerchantSlot79</Pieces>
     <Size>
-      <CX>373</CX>
-      <CY>475</CY>
+      <CX>128</CX>
+      <CY>521</CY>
     </Size>
     <Location>
       <X>0</X>
       <Y>0</Y>
     </Location>
   </Screen>
-  <Label item="MW_SelectedItemLabel">
-    <ScreenID>MW_SelectedItemLabel</ScreenID>
-    <Font>5</Font>
+  <Button item="MW_Recharge_Button">
+    <ScreenID>MW_Recharge_Button</ScreenID>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
-    <AutoStretch>False</AutoStretch>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>4</LeftAnchorOffset>
+    <TopAnchorOffset>190</TopAnchorOffset>
+    <RightAnchorOffset>128</RightAnchorOffset>
+    <BottomAnchorOffset>165</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <Style_Checkbox>false</Style_Checkbox>
+    <!--<RadioGroup/>-->
+    <Text>Recharge</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+    <!--<SoundPressed/>-->
+    <!--<<SoundUp/>-->
+    <!--<SoundFlyby/>-->
+    <Font>5</Font>
+  </Button>
+  <Label item="MW_Recharge_Price">
+    <ScreenID>MW_Recharge_Price</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>5</LeftAnchorOffset>
+    <TopAnchorOffset>160</TopAnchorOffset>
+    <RightAnchorOffset>128</RightAnchorOffset>
+    <BottomAnchorOffset>140</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <Text>41pp 9pp 9pp 4pp</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <Font>4</Font>
+  </Label>
+  <Label item="MW_Recharge_Charges">
+    <ScreenID>MW_Recharge_Charges</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>5</LeftAnchorOffset>
     <TopAnchorOffset>140</TopAnchorOffset>
-    <RightAnchorOffset>110</RightAnchorOffset>
-    <BottomAnchorOffset>127</BottomAnchorOffset>
+    <RightAnchorOffset>128</RightAnchorOffset>
+    <BottomAnchorOffset>120</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <Text />
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <Font>5</Font>
+  </Label>
+  <Label item="MW_SelectedItemLabel">
+    <ScreenID>MW_SelectedItemLabel</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>5</LeftAnchorOffset>
+    <TopAnchorOffset>160</TopAnchorOffset>
+    <RightAnchorOffset>128</RightAnchorOffset>
+    <BottomAnchorOffset>120</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <Text>Item Being Considered</Text>
@@ -1514,24 +1591,16 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
     <Font>5</Font>
-    <Size>
-      <CX>380</CX>
-      <CY>21</CY>
-    </Size>
-    <Location>
-      <X>0</X>
-      <Y>468</Y>
-    </Location>
   </Label>
   <Button item="MW_SelectedItem">
     <ScreenID>MW_SelectedItem</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
-    <AutoStretch>False</AutoStretch>
-    <LeftAnchorOffset>105</LeftAnchorOffset>
-    <TopAnchorOffset>108</TopAnchorOffset>
-    <RightAnchorOffset>160</RightAnchorOffset>
-    <BottomAnchorOffset>57</BottomAnchorOffset>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>31</LeftAnchorOffset>
+    <TopAnchorOffset>119</TopAnchorOffset>
+    <RightAnchorOffset>95</RightAnchorOffset>
+    <BottomAnchorOffset>61</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <Style_Transparent>false</Style_Transparent>
@@ -1550,27 +1619,19 @@
       <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-      <CX>75</CX>
-      <CY>75</CY>
+      <CX>60</CX>
+      <CY>60</CY>
     </DecalSize>
-    <Size>
-      <CX>75</CX>
-      <CY>75</CY>
-    </Size>
-    <Location>
-      <X>149</X>
-      <Y>489</Y>
-    </Location>
   </Button>
   <Button item="MW_Buy_Button">
     <ScreenID>MW_Buy_Button</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
-    <AutoStretch>False</AutoStretch>
-    <LeftAnchorOffset>5</LeftAnchorOffset>
-    <TopAnchorOffset>29</TopAnchorOffset>
-    <RightAnchorOffset>110</RightAnchorOffset>
-    <BottomAnchorOffset>4</BottomAnchorOffset>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>6</LeftAnchorOffset>
+    <TopAnchorOffset>54</TopAnchorOffset>
+    <RightAnchorOffset>128</RightAnchorOffset>
+    <BottomAnchorOffset>29</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <Style_Transparent>false</Style_Transparent>
@@ -1593,25 +1654,17 @@
     <!--<SoundPressed/>-->
     <!--<<SoundUp/>-->
     <!--<SoundFlyby/>-->
-    <Size>
-      <CX>170</CX>
-      <CY>30</CY>
-    </Size>
     <Font>5</Font>
-    <Location>
-      <X>0</X>
-      <Y>566</Y>
-    </Location>
   </Button>
   <Button item="MW_Sell_Button">
     <ScreenID>MW_Sell_Button</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
-    <AutoStretch>False</AutoStretch>
-    <LeftAnchorOffset>2</LeftAnchorOffset>
-    <TopAnchorOffset>27</TopAnchorOffset>
-    <RightAnchorOffset>162</RightAnchorOffset>
-    <BottomAnchorOffset>2</BottomAnchorOffset>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>5</LeftAnchorOffset>
+    <TopAnchorOffset>55</TopAnchorOffset>
+    <RightAnchorOffset>128</RightAnchorOffset>
+    <BottomAnchorOffset>30</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <Style_Transparent>false</Style_Transparent>
@@ -1634,25 +1687,17 @@
     <!--<SoundPressed/>-->
     <!--<<SoundUp/>-->
     <!--<SoundFlyby/>-->
-    <Size>
-      <CX>170</CX>
-      <CY>30</CY>
-    </Size>
-    <Location>
-      <X>0</X>
-      <Y>566</Y>
-    </Location>
     <Font>5</Font>
   </Button>
   <Button item="MW_DoneButton">
     <ScreenID>DoneButton</ScreenID>
-    <Font>5</Font>
+    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
-    <AutoStretch>False</AutoStretch>
-    <LeftAnchorOffset>177</LeftAnchorOffset>
-    <TopAnchorOffset>28</TopAnchorOffset>
-    <RightAnchorOffset>340</RightAnchorOffset>
-    <BottomAnchorOffset>3</BottomAnchorOffset>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>5</LeftAnchorOffset>
+    <TopAnchorOffset>27</TopAnchorOffset>
+    <RightAnchorOffset>128</RightAnchorOffset>
+    <BottomAnchorOffset>2</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <Style_Transparent>false</Style_Transparent>
@@ -1675,14 +1720,6 @@
     <!--<SoundPressed/>-->
     <!--<<SoundUp/>-->
     <!--<SoundFlyby/>-->
-    <Size>
-      <CX>170</CX>
-      <CY>30</CY>
-    </Size>
-    <Location>
-      <X>202</X>
-      <Y>566</Y>
-    </Location>
     <Font>5</Font>
   </Button>
   <Screen item="MerchantWnd">
@@ -1694,20 +1731,25 @@
       <Y>25</Y>
     </Location>
     <Size>
-      <CX>380</CX>
-      <CY>620</CY>
+      <CX>135</CX>
+      <!-- 125 -->
+      <CY>720</CY>
+      <!-- 480 -->
     </Size>
     <Text>Merchant</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
-    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+    <DrawTemplate>WDT_Def</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
     <Style_Border>true</Style_Border>
-    <Style_Sizable>False</Style_Sizable>
+    <Style_Sizable>false</Style_Sizable>
     <Pieces>MW_MerchantName</Pieces>
     <Pieces>MW_MerchantSlotsWnd</Pieces>
+    <Pieces>MW_Recharge_Button</Pieces>
+    <Pieces>MW_Recharge_Charges</Pieces>
+    <Pieces>MW_Recharge_Price</Pieces>
     <Pieces>MW_SelectedItemLabel</Pieces>
     <Pieces>MW_SelectedItem</Pieces>
     <Pieces>MW_Buy_Button</Pieces>
