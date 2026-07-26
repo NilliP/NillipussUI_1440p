@@ -1493,6 +1493,107 @@
       <Y>0</Y>
     </Location>
   </Screen>
+  <Button item="MW_Recharge_Button">
+    <ScreenID>MW_Recharge_Button</ScreenID>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>False</AutoStretch>
+    <LeftAnchorOffset>5</LeftAnchorOffset>
+    <TopAnchorOffset>85</TopAnchorOffset>
+    <RightAnchorOffset>145</RightAnchorOffset>
+    <BottomAnchorOffset>55</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <Style_Checkbox>false</Style_Checkbox>
+    <!--<RadioGroup/>-->
+    <Text>Recharge</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+    <!--<SoundPressed/>-->
+    <!--<<SoundUp/>-->
+    <!--<SoundFlyby/>-->
+    <Size>
+      <CX>140</CX>
+      <CY>30</CY>
+    </Size>
+    <Font>5</Font>
+    <Location>
+      <X>5</X>
+      <Y>535</Y>
+    </Location>
+  </Button>
+  <Label item="MW_Recharge_Price">
+    <ScreenID>MW_Recharge_Price</ScreenID>
+    <Font>4</Font>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>False</AutoStretch>
+    <LeftAnchorOffset>5</LeftAnchorOffset>
+    <TopAnchorOffset>108</TopAnchorOffset>
+    <RightAnchorOffset>145</RightAnchorOffset>
+    <BottomAnchorOffset>88</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <Text>41pp 9pp 9pp 4pp</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <Font>4</Font>
+    <Size>
+      <CX>140</CX>
+      <CY>20</CY>
+    </Size>
+    <Location>
+      <X>5</X>
+      <Y>512</Y>
+    </Location>
+  </Label>
+  <Label item="MW_Recharge_Charges">
+    <ScreenID>MW_Recharge_Charges</ScreenID>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>False</AutoStretch>
+    <LeftAnchorOffset>5</LeftAnchorOffset>
+    <TopAnchorOffset>131</TopAnchorOffset>
+    <RightAnchorOffset>145</RightAnchorOffset>
+    <BottomAnchorOffset>111</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <Text />
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <Font>5</Font>
+    <Size>
+      <CX>140</CX>
+      <CY>20</CY>
+    </Size>
+    <Location>
+      <X>5</X>
+      <Y>489</Y>
+    </Location>
+  </Label>
   <Label item="MW_SelectedItemLabel">
     <ScreenID>MW_SelectedItemLabel</ScreenID>
     <Font>5</Font>
@@ -1708,6 +1809,9 @@
     <Style_Sizable>False</Style_Sizable>
     <Pieces>MW_MerchantName</Pieces>
     <Pieces>MW_MerchantSlotsWnd</Pieces>
+    <Pieces>MW_Recharge_Button</Pieces>
+    <Pieces>MW_Recharge_Charges</Pieces>
+    <Pieces>MW_Recharge_Price</Pieces>
     <Pieces>MW_SelectedItemLabel</Pieces>
     <Pieces>MW_SelectedItem</Pieces>
     <Pieces>MW_Buy_Button</Pieces>
